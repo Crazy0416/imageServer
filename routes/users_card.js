@@ -190,7 +190,7 @@ router.post('/', tokenAuth, upload.single('photo'), function(req,res){
                     content: newCard.content,
                     photo_path: newCard.photo_path,
                     tag: newCard.tag,
-                    _id: card_ObjectId
+                    ObjectId: card_ObjectId
                 };
                 console.log('redis-card : ', redis_card);
 
