@@ -1923,3 +1923,413 @@ key :  undefined
 key length :  true
 input tag success
 ltrim success
+req cookie: {"token":"e-ANCvFlxGUwhT8znircvFjS9KkVNHGi"}
+req session uid: merong
+/posting/card in
+req.file: undefined
+body: {"title":"hello","content":"hiroooooo","tag":"undefined","photo":"undefined","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a9304cf42337aa15495ae,
+  title: 'hello',
+  content: 'hiroooooo',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/noimage.jpg' }
+newCard JSON: {"register_time":"2018-02-19T07:52:13.442Z","tag":["undefined"],"_id":"5a8a9304cf42337aa15495ae","title":"hello","content":"hiroooooo","user_ObjectId":"5a86af96f93c48263d0875a1","photo_path":"/images/noimage.jpg"}
+new card save success
+create card :  { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a9304cf42337aa15495ae,
+  title: 'hello',
+  content: 'hiroooooo',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/noimage.jpg',
+  card_id: 32,
+  __v: 0 }
+card_ObjectId :  5a8a9304cf42337aa15495ae
+new card save success
+tags input DB
+tag name : undefined
+query :  { tag_name: 'undefined' }
+tag :  ["undefined"]
+tag lengthL: 1
+tage name :  undefined
+redis-card :  { title: 'hello',
+  content: 'hiroooooo',
+  photo_path: '/images/noimage.jpg',
+  tag: ["undefined"],
+  ObjectId: '5a8a9304cf42337aa15495ae' }
+key :  undefined
+value : { title: 'hello',
+  content: 'hiroooooo',
+  photo_path: '/images/noimage.jpg',
+  tag: ["undefined"],
+  ObjectId: '5a8a9304cf42337aa15495ae' }
+[0mPOST /users/card [32m200 [0m10.327 ms - 38[0m
+lpush success
+key :  undefined
+key length :  true
+ltrim success
+input tag success
+[0mGET /js/jquery.form.js [33m404 [0m0.621 ms - 1144[0m
+[0mGET /js/jquery.form.js [33m404 [0m0.594 ms - 1144[0m
+req cookie: {"token":"e-ANCvFlxGUwhT8znircvFjS9KkVNHGi","CardCnt":"1","tagName":"hello"}
+req session uid: merong
+/posting/card in
+req.file: undefined
+body: {"title":"dd","content":"dd","tag":"undefined","photo":"undefined","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a9619cf42337aa15495af,
+  title: 'dd',
+  content: 'dd',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/noimage.jpg' }
+newCard JSON: {"register_time":"2018-02-19T07:52:13.442Z","tag":["undefined"],"_id":"5a8a9619cf42337aa15495af","title":"dd","content":"dd","user_ObjectId":"5a86af96f93c48263d0875a1","photo_path":"/images/noimage.jpg"}
+new card save success
+create card :  { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a9619cf42337aa15495af,
+  title: 'dd',
+  content: 'dd',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/noimage.jpg',
+  card_id: 33,
+  __v: 0 }
+card_ObjectId :  5a8a9619cf42337aa15495af
+new card save success
+tags input DB
+tag name : undefined
+query :  { tag_name: 'undefined' }
+tag :  ["undefined"]
+tag lengthL: 1
+tage name :  undefined
+redis-card :  { title: 'dd',
+  content: 'dd',
+  photo_path: '/images/noimage.jpg',
+  tag: ["undefined"],
+  ObjectId: '5a8a9619cf42337aa15495af' }
+key :  undefined
+value : { title: 'dd',
+  content: 'dd',
+  photo_path: '/images/noimage.jpg',
+  tag: ["undefined"],
+  ObjectId: '5a8a9619cf42337aa15495af' }
+[0mPOST /users/card [32m200 [0m10.614 ms - 38[0m
+lpush success
+key :  undefined
+key length :  true
+ltrim success
+input tag success
+req cookie: {"token":"e-ANCvFlxGUwhT8znircvFjS9KkVNHGi","tagName":"hello","CardCnt":"2"}
+req session uid: merong
+/posting/card in
+req.file: undefined
+body: {"title":"testfile","content":"test file hihihihi","tag":"undefined","photo":"undefined","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a96a4cf42337aa15495b0,
+  title: 'testfile',
+  content: 'test file hihihihi',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/noimage.jpg' }
+newCard JSON: {"register_time":"2018-02-19T07:52:13.442Z","tag":["undefined"],"_id":"5a8a96a4cf42337aa15495b0","title":"testfile","content":"test file hihihihi","user_ObjectId":"5a86af96f93c48263d0875a1","photo_path":"/images/noimage.jpg"}
+new card save success
+create card :  { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a96a4cf42337aa15495b0,
+  title: 'testfile',
+  content: 'test file hihihihi',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/noimage.jpg',
+  card_id: 34,
+  __v: 0 }
+card_ObjectId :  5a8a96a4cf42337aa15495b0
+new card save success
+tags input DB
+tag name : undefined
+query :  { tag_name: 'undefined' }
+tag :  ["undefined"]
+tag lengthL: 1
+tage name :  undefined
+redis-card :  { title: 'testfile',
+  content: 'test file hihihihi',
+  photo_path: '/images/noimage.jpg',
+  tag: ["undefined"],
+  ObjectId: '5a8a96a4cf42337aa15495b0' }
+key :  undefined
+value : { title: 'testfile',
+  content: 'test file hihihihi',
+  photo_path: '/images/noimage.jpg',
+  tag: ["undefined"],
+  ObjectId: '5a8a96a4cf42337aa15495b0' }
+[0mPOST /users/card [32m200 [0m11.201 ms - 38[0m
+lpush success
+key :  undefined
+key length :  true
+input tag success
+ltrim success
+req cookie: {"token":"e-ANCvFlxGUwhT8znircvFjS9KkVNHGi","tagName":"hello","CardCnt":"3"}
+req session uid: merong
+/posting/card in
+req.file: undefined
+body: {"title":"test","content":"ttt","tag":"undefined","photo":"undefined","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a99e3cf42337aa15495b1,
+  title: 'test',
+  content: 'ttt',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/noimage.jpg' }
+newCard JSON: {"register_time":"2018-02-19T07:52:13.442Z","tag":["undefined"],"_id":"5a8a99e3cf42337aa15495b1","title":"test","content":"ttt","user_ObjectId":"5a86af96f93c48263d0875a1","photo_path":"/images/noimage.jpg"}
+new card save success
+create card :  { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a99e3cf42337aa15495b1,
+  title: 'test',
+  content: 'ttt',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/noimage.jpg',
+  card_id: 35,
+  __v: 0 }
+card_ObjectId :  5a8a99e3cf42337aa15495b1
+new card save success
+tags input DB
+tag name : undefined
+query :  { tag_name: 'undefined' }
+tag :  ["undefined"]
+tag lengthL: 1
+tage name :  undefined
+redis-card :  { title: 'test',
+  content: 'ttt',
+  photo_path: '/images/noimage.jpg',
+  tag: ["undefined"],
+  ObjectId: '5a8a99e3cf42337aa15495b1' }
+key :  undefined
+value : { title: 'test',
+  content: 'ttt',
+  photo_path: '/images/noimage.jpg',
+  tag: ["undefined"],
+  ObjectId: '5a8a99e3cf42337aa15495b1' }
+[0mPOST /users/card [32m200 [0m5.475 ms - 38[0m
+lpush success
+key :  undefined
+key length :  true
+ltrim success
+input tag success
+req cookie: {"token":"e-ANCvFlxGUwhT8znircvFjS9KkVNHGi","tagName":"hello","CardCnt":"4"}
+req session uid: merong
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"최숮ㅇ.png","encoding":"7bit","mimetype":"image/png","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"merong-1519032863590-최숮ㅇ.png","path":"/home/seungjoo/project/imageServer/public/images/uploads/merong-1519032863590-최숮ㅇ.png","size":222650}
+body: {"title":"cc","content":"testest","tag":"undefined","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a9a1fcf42337aa15495b2,
+  title: 'cc',
+  content: 'testest',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/uploads/merong-1519032863590-최숮ㅇ.png' }
+newCard JSON: {"register_time":"2018-02-19T07:52:13.442Z","tag":["undefined"],"_id":"5a8a9a1fcf42337aa15495b2","title":"cc","content":"testest","user_ObjectId":"5a86af96f93c48263d0875a1","photo_path":"/images/uploads/merong-1519032863590-최숮ㅇ.png"}
+new card save success
+create card :  { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a9a1fcf42337aa15495b2,
+  title: 'cc',
+  content: 'testest',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/uploads/merong-1519032863590-최숮ㅇ.png',
+  card_id: 36,
+  __v: 0 }
+card_ObjectId :  5a8a9a1fcf42337aa15495b2
+new card save success
+tags input DB
+tag name : undefined
+query :  { tag_name: 'undefined' }
+tag :  ["undefined"]
+tag lengthL: 1
+tage name :  undefined
+redis-card :  { title: 'cc',
+  content: 'testest',
+  photo_path: '/images/uploads/merong-1519032863590-최숮ㅇ.png',
+  tag: ["undefined"],
+  ObjectId: '5a8a9a1fcf42337aa15495b2' }
+key :  undefined
+value : { title: 'cc',
+  content: 'testest',
+  photo_path: '/images/uploads/merong-1519032863590-최숮ㅇ.png',
+  tag: ["undefined"],
+  ObjectId: '5a8a9a1fcf42337aa15495b2' }
+[0mPOST /users/card [32m200 [0m13.445 ms - 38[0m
+lpush success
+key :  undefined
+key length :  true
+ltrim success
+input tag success
+req cookie: {"tagName":"hello","CardCnt":"5","token":"AHmK28cHxzgnfFpsFO_5P0IvGDAw8m3d"}
+req session uid: merong
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"최숮ㅇ.png","encoding":"7bit","mimetype":"image/png","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"merong-1519033294050-최숮ㅇ.png","path":"/home/seungjoo/project/imageServer/public/images/uploads/merong-1519033294050-최숮ㅇ.png","size":222650}
+body: {"title":"ggg","content":"testestset","tag":"undefined","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a9bcecf42337aa15495b3,
+  title: 'ggg',
+  content: 'testestset',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/uploads/merong-1519033294050-최숮ㅇ.png' }
+newCard JSON: {"register_time":"2018-02-19T07:52:13.442Z","tag":["undefined"],"_id":"5a8a9bcecf42337aa15495b3","title":"ggg","content":"testestset","user_ObjectId":"5a86af96f93c48263d0875a1","photo_path":"/images/uploads/merong-1519033294050-최숮ㅇ.png"}
+new card save success
+create card :  { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a9bcecf42337aa15495b3,
+  title: 'ggg',
+  content: 'testestset',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/uploads/merong-1519033294050-최숮ㅇ.png',
+  card_id: 37,
+  __v: 0 }
+card_ObjectId :  5a8a9bcecf42337aa15495b3
+new card save success
+tags input DB
+tag name : undefined
+query :  { tag_name: 'undefined' }
+tag :  ["undefined"]
+tag lengthL: 1
+tage name :  undefined
+redis-card :  { title: 'ggg',
+  content: 'testestset',
+  photo_path: '/images/uploads/merong-1519033294050-최숮ㅇ.png',
+  tag: ["undefined"],
+  ObjectId: '5a8a9bcecf42337aa15495b3' }
+key :  undefined
+value : { title: 'ggg',
+  content: 'testestset',
+  photo_path: '/images/uploads/merong-1519033294050-최숮ㅇ.png',
+  tag: ["undefined"],
+  ObjectId: '5a8a9bcecf42337aa15495b3' }
+[0mPOST /users/card [32m200 [0m12.007 ms - 38[0m
+lpush success
+key :  undefined
+key length :  true
+ltrim success
+input tag success
+req cookie: {"tagName":"hello","token":"AHmK28cHxzgnfFpsFO_5P0IvGDAw8m3d","CardCnt":"6"}
+req session uid: merong
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"최숮ㅇ.png","encoding":"7bit","mimetype":"image/png","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"merong-1519033467032-최숮ㅇ.png","path":"/home/seungjoo/project/imageServer/public/images/uploads/merong-1519033467032-최숮ㅇ.png","size":222650}
+body: {"title":"dd","content":"ss","tag":"undefined","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a9c7bcf42337aa15495b4,
+  title: 'dd',
+  content: 'ss',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/uploads/merong-1519033467032-최숮ㅇ.png' }
+newCard JSON: {"register_time":"2018-02-19T07:52:13.442Z","tag":["undefined"],"_id":"5a8a9c7bcf42337aa15495b4","title":"dd","content":"ss","user_ObjectId":"5a86af96f93c48263d0875a1","photo_path":"/images/uploads/merong-1519033467032-최숮ㅇ.png"}
+new card save success
+create card :  { register_time: 2018-02-19T07:52:13.442Z,
+  tag: [ 'undefined' ],
+  _id: 5a8a9c7bcf42337aa15495b4,
+  title: 'dd',
+  content: 'ss',
+  user_ObjectId: '5a86af96f93c48263d0875a1',
+  photo_path: '/images/uploads/merong-1519033467032-최숮ㅇ.png',
+  card_id: 38,
+  __v: 0 }
+card_ObjectId :  5a8a9c7bcf42337aa15495b4
+new card save success
+tags input DB
+tag name : undefined
+query :  { tag_name: 'undefined' }
+tag :  ["undefined"]
+tag lengthL: 1
+tage name :  undefined
+redis-card :  { title: 'dd',
+  content: 'ss',
+  photo_path: '/images/uploads/merong-1519033467032-최숮ㅇ.png',
+  tag: ["undefined"],
+  ObjectId: '5a8a9c7bcf42337aa15495b4' }
+key :  undefined
+value : { title: 'dd',
+  content: 'ss',
+  photo_path: '/images/uploads/merong-1519033467032-최숮ㅇ.png',
+  tag: ["undefined"],
+  ObjectId: '5a8a9c7bcf42337aa15495b4' }
+[0mPOST /users/card [32m200 [0m12.026 ms - 38[0m
+lpush success
+key :  undefined
+key length :  true
+input tag success
+ltrim success
+mongodb connection ok
+mongodb connection ok
+req cookie: {"token":"tO3oRnkFaMwynkxW2RTelv7Pe1iq1JLp","CardCnt":"20","tagName":"오께이"}
+req session uid: 김민호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"i1.daumcdn.net.jpeg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김민호-1519037520240-i1.daumcdn.net.jpeg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김민호-1519037520240-i1.daumcdn.net.jpeg","size":57542}
+body: {"title":"지우","content":"지우","tag":"#지우 #오께이","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#지우', '#오께이' ],
+  _id: 5a8aac50342b6041a5660068,
+  title: '지우',
+  content: '지우',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519037520240-i1.daumcdn.net.jpeg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#지우","#오께이"],"_id":"5a8aac50342b6041a5660068","title":"지우","content":"지우","user_ObjectId":"5a88f216f93c48263d0875a3","photo_path":"/images/uploads/김민호-1519037520240-i1.daumcdn.net.jpeg"}
+19:52:00 - [32minfo[39m: WHAT new Card Tags :#지우,#오께이
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#지우', '#오께이' ],
+  _id: 5a8aac50342b6041a5660068,
+  title: '지우',
+  content: '지우',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519037520240-i1.daumcdn.net.jpeg',
+  card_id: 45,
+  __v: 0 }
+card_ObjectId :  5a8aac50342b6041a5660068
+new card save success
+tags input DB
+tag name : #지우
+query :  { tag_name: '#지우' }
+tag name : #오께이
+query :  { tag_name: '#오께이' }
+tag :  ["#지우","#오께이"]
+tag lengthL: 2
+tage name :  #지우
+redis-card :  { title: '지우',
+  content: '지우',
+  photo_path: '/images/uploads/김민호-1519037520240-i1.daumcdn.net.jpeg',
+  tag: ["#지우","#오께이"],
+  ObjectId: '5a8aac50342b6041a5660068' }
+key :  #지우
+value : { title: '지우',
+  content: '지우',
+  photo_path: '/images/uploads/김민호-1519037520240-i1.daumcdn.net.jpeg',
+  tag: ["#지우","#오께이"],
+  ObjectId: '5a8aac50342b6041a5660068' }
+key :  #오께이
+value : { title: '지우',
+  content: '지우',
+  photo_path: '/images/uploads/김민호-1519037520240-i1.daumcdn.net.jpeg',
+  tag: ["#지우","#오께이"],
+  ObjectId: '5a8aac50342b6041a5660068' }
+[0mPOST /users/card [32m200 [0m65.675 ms - 38[0m
+input tag success
+lpush success
+key :  #오께이
+key length :  true
+lpush success
+key :  #오께이
+key length :  true
+ltrim success
+ltrim success
+input tag success
