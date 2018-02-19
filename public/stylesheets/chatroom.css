@@ -75,6 +75,10 @@
     width: 20px;
     display: inline-block;
     overflow: hidden;
+    margin-right: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    vertical-align: middle;
 }
 .chatMessage_Image{
     height: 20px;

@@ -79,11 +79,11 @@ function connectChatServer(url) {
             console.log(event.data);
         };
         socket.onopen = function(event) {
-            createChatMessage("", "운영자", "채팅방에 입장하셨습니다.");
+            createChatMessage("/images/username.png", "운영자: ", "채팅방에 입장하셨습니다.");
             console.log(event.data);
         };
         socket.onclose = function(event) {
-            createChatMessage("", "운영자", "서버와의 접속이 끊겼습니다.");
+            createChatMessage("/images/username.png", "운영자: ", "서버와의 접속이 끊겼습니다.");
             console.log(event.data);
         };
     } else {
