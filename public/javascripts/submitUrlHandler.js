@@ -3,4 +3,5 @@ function submitUrlHandler(formId, _method, url, callback) {
     theForm.method = _method;
     theForm.action = url;
     $('#'+formId).submit();
+    callback();
 }

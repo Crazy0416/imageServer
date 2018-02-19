@@ -10,6 +10,7 @@ function getMyPostRange(skip){
             var post = createPostObjToHtml(v);
             document.getElementById('userPostBox').appendChild(post);
             if(i === (response.data.data.length -1)){
+		console.log('change CardCnt Cookie!!', (parseInt(skip) + response.data.data.length));
                 document.cookie = 'CardCnt='+ (parseInt(skip) + response.data.data.length) + ';path=/';
             }
         })
