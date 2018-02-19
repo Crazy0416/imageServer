@@ -14,6 +14,8 @@ var mult_storage = multer.diskStorage({
         cb(null, req.session.uid  + '-' + Date.now() + '-' + file.originalname);
     }
 });
+var sentry = require('../common/sentry');
+var logging = require('../common/log');
 
 // middleware function
 var tokenAuth = require('../middlewares/tokenAuth');
@@ -41,7 +43,14 @@ router.get('/:card_id', addSessionObj, function(req, res, next) {
 
     Post.getCardById(card_id, function(err, card){
         if(err){
-
+            sentry.message(
+                "DB getCardById error",
+                "GET /users_card/:card_id",
+                {
+                    note: "card_id:"+card_id,
+                    type: "DB error"
+                }
+            );
             res.render({
                 message: "DB ERROR",
                 error: {
@@ -74,6 +83,14 @@ router.get('/', tokenAuth, function(req,res){
     Post.getCardSequence(user_ObjectId,number,function(err,card){
         console.log('here!!!');
         if(err) {
+            sentry.message(
+                "DB getCardSequenct error",
+                "GET /users_card",
+                {
+                    note: "user_ObjectId:"+user_ObjectId,
+                    type: "DB error"
+                }
+            );
             console.log('GET /posts/card getCardSequence ERROR: ' + err);
             res.append("Access-Control-Allow-Origin", "*")
                 .append("Access-Control-Allow-Headers", "origin, x-requested-with, content-type, accept")
@@ -144,6 +161,14 @@ router.post('/', tokenAuth, upload.single('photo'), function(req,res){
     if(check == 0){   //create and save
         Post.createCard(newCard, function(err,card){
             if(err){
+                sentry.message(
+                    "DB createCard error",  //message : 예외
+                    "POST /users_card",             //logger : 어떤 클라이언트에서 예외가 나왔는지
+                    {
+                        note: "newCard:"+newCard,     //extra : 오류 판별을 위한 다른 정보
+                        type: "DB error"
+                    }
+                );
                 res.append("Access-Control-Allow-Origin", "*")
                     .append("Access-Control-Allow-Headers", "origin, x-requested-with, content-type, accept")
                     .set()
@@ -164,6 +189,14 @@ router.post('/', tokenAuth, upload.single('photo'), function(req,res){
                     console.log('tag name :',newCard.tag[i]);
                     Tag.createOrUpdateTagCount(newCard.tag[i], function(err,result){
                         if(err){
+                            sentry.message(
+                                "DB createOrUpdateTagCount error",  //message : 예외
+                                "POST /users_card",             //logger : 어떤 클라이언트에서 예외가 나왔는지
+                                {
+                                    note: "card_ObjectId:"+card_ObjectId,     //extra : 오류 판별을 위한 다른 정보
+                                    type: "DB error"
+                                }
+                            );
                             console.log('err');
                             res.append("Access-Control-Allow-Origin","*")
                                 .append("Access-Control-Allow-Headers","origin, x-requested-with, content-type, accpet")
@@ -202,6 +235,14 @@ router.post('/', tokenAuth, upload.single('photo'), function(req,res){
                     console.log('value :', value);
                     client.lpush(key,JSON.stringify(value), function(err){  //JSON을 문자열 객체로 변환하여 레디스에 삽입
                         if(err){
+                            sentry.message(
+                                "Redis input card error",
+                                "POST /uses_card",
+                                {
+                                    note: "key(tag)"+key,
+                                    type: "Redis error"
+                                }
+                            );
                             res.append("Access-Control-Allow-Origin","*")
                                 .append("Access-Control-Allow-Headers","origin, x-requested-with, content-type, accpet")
                                 .set()
@@ -218,6 +259,14 @@ router.post('/', tokenAuth, upload.single('photo'), function(req,res){
 
                             client.ltrim(key, 0, 100, function (err) {   //0~100범위 밖 index들 삭제
                                 if (err) {
+                                    sentry.message(
+                                        "Redis trim card error",
+                                        "POST /users_card",
+                                        {
+                                            note: "key(tag)"+key,
+                                            type: "Redis error"
+                                        }
+                                    );
                                     res.append("Access-Control-Allow-Origin", "*")
                                         .append("Access-Control-Allow-Headers", "origin, x-requested-with, content-type, accpet")
                                         .set()
@@ -245,12 +294,21 @@ router.post('/', tokenAuth, upload.single('photo'), function(req,res){
                     });
             }
         });
+        logging.info('WHAT new Card Tags :' + newCard.tag);
         console.log('new card save success');
 
     }else if(check != 0){ //modify
 
         Post.modifyCard(newCard,check,function(err,card){
             if(err){
+                sentry.message(
+                    "DB modifyCard error",
+                    "POST /users_card",
+                    {
+                        note: "newCard"+newCard,
+                        type: "Redis error"
+                    }
+                );
                 res.append("Access-Control-Allow-Origin", "*")
                     .append("Access-Control-Allow-Headers", "origin, x-requested-with, content-type, accept")
                     .set()
@@ -288,6 +346,14 @@ router.delete('/', function(req,res){
     Post.getCardByCardId(card_id, function(err,card){
 
         if(err){
+            sentry.message(
+                "DB getCardByCardId error",
+                "DELETE /users_card",
+                {
+                    note: "card_id"+card_id,
+                    type: "DB error"
+                }
+            );
             res.append("Access-Control-Allow-Origin", "*")
                 .append("Access-Control-Allow-Headers", "origin, x-requested-with, content-type, accept")
                 .set()
@@ -309,6 +375,14 @@ router.delete('/', function(req,res){
 
                 Post.deleteCardByCardId(card_id,function(err,card){
                     if(err){
+                        sentry.message(
+                            "DB deleteCardByCardId card error",
+                            "DELETE /users_card",
+                            {
+                                note: "card_id"+card_id,
+                                type: "DB error"
+                            }
+                        );
                         res.append("Access-Control-Allow-Origin", "*")
                             .append("Access-Control-Allow-Headers", "origin, x-requested-with, content-type, accept")
                             .set()
