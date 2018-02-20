@@ -4,6 +4,10 @@
     font-family: 'NanumGothic';
     src: url(/fonts/NanumFont_TTF_ALL/NanumGothic.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url(/fonts/TmonFont/TmonMonsori.ttf.ttf) format('truetype');
+}
 
 * {
     margin: 0px;

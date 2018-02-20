@@ -1,5 +1,6 @@
 body{
     padding: 0px !important;
+    font-family: TmonMonsori;
 }
 .container{
     border-radius: 5px;
@@ -8,6 +9,8 @@ body{
 }
 .postItem{
     background-color: whitesmoke;
+    overflow: hidden;
+    border-radius: 10px;
 }
 .postImage{
     height: 80%;
