@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url(/fonts/TmonFont/TmonMonsori.ttf.ttf) format('truetype');
+}
+
+s
 body{
     padding: 0px !important;
     font-family: TmonMonsori;
