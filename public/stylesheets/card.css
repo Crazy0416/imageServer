@@ -9,7 +9,7 @@
 
 body{
     padding: 0px !important;
-    font-family: NanumGothic;
+    font-family: NanumGothic !important;
 }
 .container{
     border-radius: 5px;
