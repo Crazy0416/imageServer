@@ -1,0 +1,37 @@
+body{
+    padding: 0px !important;
+}
+.container{
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: white;
+}
+.postItem{
+    background-color: whitesmoke;
+}
+.postImage{
+    height: 80%;
+    overflow: hidden;
+    width: 100%;
+}
+.postImage > img{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+.postText{
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+.postTitle{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+.postContent{
+    margin-bottom: 0.3rem;
+}
+.postTag > a{
+    color: darkslategray;
+    font-weight: bold;
+}
