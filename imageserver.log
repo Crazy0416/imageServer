@@ -2333,3 +2333,1837 @@ key length :  true
 ltrim success
 ltrim success
 input tag success
+req cookie: {"token":"-PuUxBRqyH1PTrkW949WjCvs81GWSwgN","CardCnt":"20","tagName":"test"}
+req session uid: 김길호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"RE43511851_ori.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김길호-1519040047891-RE43511851_ori.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김길호-1519040047891-RE43511851_ori.jpg","size":234415}
+body: {"title":"test 꽃","content":"꽃 test 입니다","tag":"#test #꽃","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#test', '#꽃' ],
+  _id: 5a8ab62f342b6041a5660069,
+  title: 'test 꽃',
+  content: '꽃 test 입니다',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519040047891-RE43511851_ori.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#test","#꽃"],"_id":"5a8ab62f342b6041a5660069","title":"test 꽃","content":"꽃 test 입니다","user_ObjectId":"5a88f018f93c48263d0875a2","photo_path":"/images/uploads/김길호-1519040047891-RE43511851_ori.jpg"}
+20:34:07 - [32minfo[39m: WHAT new Card Tags :#test,#꽃
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#test', '#꽃' ],
+  _id: 5a8ab62f342b6041a5660069,
+  title: 'test 꽃',
+  content: '꽃 test 입니다',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519040047891-RE43511851_ori.jpg',
+  card_id: 46,
+  __v: 0 }
+card_ObjectId :  5a8ab62f342b6041a5660069
+new card save success
+tags input DB
+tag name : #test
+query :  { tag_name: '#test' }
+tag name : #꽃
+query :  { tag_name: '#꽃' }
+tag :  ["#test","#꽃"]
+tag lengthL: 2
+tage name :  #test
+redis-card :  { title: 'test 꽃',
+  content: '꽃 test 입니다',
+  photo_path: '/images/uploads/김길호-1519040047891-RE43511851_ori.jpg',
+  tag: ["#test","#꽃"],
+  ObjectId: '5a8ab62f342b6041a5660069' }
+key :  #test
+value : { title: 'test 꽃',
+  content: '꽃 test 입니다',
+  photo_path: '/images/uploads/김길호-1519040047891-RE43511851_ori.jpg',
+  tag: ["#test","#꽃"],
+  ObjectId: '5a8ab62f342b6041a5660069' }
+key :  #꽃
+value : { title: 'test 꽃',
+  content: '꽃 test 입니다',
+  photo_path: '/images/uploads/김길호-1519040047891-RE43511851_ori.jpg',
+  tag: ["#test","#꽃"],
+  ObjectId: '5a8ab62f342b6041a5660069' }
+[0mPOST /users/card [32m200 [0m9.906 ms - 38[0m
+lpush success
+key :  #꽃
+key length :  true
+lpush success
+key :  #꽃
+key length :  true
+ltrim success
+ltrim success
+input tag success
+input tag success
+req cookie: {"token":"-PuUxBRqyH1PTrkW949WjCvs81GWSwgN","CardCnt":"20","tagName":"smilegate"}
+req session uid: 김길호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"i1.daumcdn.net.jpeg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김길호-1519040490403-i1.daumcdn.net.jpeg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김길호-1519040490403-i1.daumcdn.net.jpeg","size":57542}
+body: {"title":"지우","content":"지우개쩔","tag":"#smilegate","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#smilegate' ],
+  _id: 5a8ab7ea342b6041a566006a,
+  title: '지우',
+  content: '지우개쩔',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519040490403-i1.daumcdn.net.jpeg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#smilegate"],"_id":"5a8ab7ea342b6041a566006a","title":"지우","content":"지우개쩔","user_ObjectId":"5a88f018f93c48263d0875a2","photo_path":"/images/uploads/김길호-1519040490403-i1.daumcdn.net.jpeg"}
+20:41:30 - [32minfo[39m: WHAT new Card Tags :#smilegate
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#smilegate' ],
+  _id: 5a8ab7ea342b6041a566006a,
+  title: '지우',
+  content: '지우개쩔',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519040490403-i1.daumcdn.net.jpeg',
+  card_id: 47,
+  __v: 0 }
+card_ObjectId :  5a8ab7ea342b6041a566006a
+new card save success
+tags input DB
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag :  ["#smilegate"]
+tag lengthL: 1
+tage name :  #smilegate
+redis-card :  { title: '지우',
+  content: '지우개쩔',
+  photo_path: '/images/uploads/김길호-1519040490403-i1.daumcdn.net.jpeg',
+  tag: ["#smilegate"],
+  ObjectId: '5a8ab7ea342b6041a566006a' }
+key :  #smilegate
+value : { title: '지우',
+  content: '지우개쩔',
+  photo_path: '/images/uploads/김길호-1519040490403-i1.daumcdn.net.jpeg',
+  tag: ["#smilegate"],
+  ObjectId: '5a8ab7ea342b6041a566006a' }
+[0mPOST /users/card [32m200 [0m14.135 ms - 38[0m
+lpush success
+key :  #smilegate
+key length :  true
+input tag success
+ltrim success
+req cookie: {"token":"mugpk4rSkgH5Fgg9sjAz36zelumrouKq","CardCnt":"36"}
+req session uid: 김민호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"11867_20251_2855.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김민호-1519089101666-11867_20251_2855.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김민호-1519089101666-11867_20251_2855.jpg","size":700968}
+body: {"title":"크로스파이어 esports 한단다","content":"크로스파이어 esports 한대요 여러분~","tag":"#스마일게이트 #smilegate #크로스파이어","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#크로스파이어' ],
+  _id: 5a8b75cd342b6041a566006b,
+  title: '크로스파이어 esports 한단다',
+  content: '크로스파이어 esports 한대요 여러분~',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089101666-11867_20251_2855.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#smilegate","#크로스파이어"],"_id":"5a8b75cd342b6041a566006b","title":"크로스파이어 esports 한단다","content":"크로스파이어 esports 한대요 여러분~","user_ObjectId":"5a88f216f93c48263d0875a3","photo_path":"/images/uploads/김민호-1519089101666-11867_20251_2855.jpg"}
+10:11:41 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#smilegate,#크로스파이어
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#크로스파이어' ],
+  _id: 5a8b75cd342b6041a566006b,
+  title: '크로스파이어 esports 한단다',
+  content: '크로스파이어 esports 한대요 여러분~',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089101666-11867_20251_2855.jpg',
+  card_id: 48,
+  __v: 0 }
+card_ObjectId :  5a8b75cd342b6041a566006b
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag name : #크로스파이어
+query :  { tag_name: '#크로스파이어' }
+tag :  ["#스마일게이트","#smilegate","#크로스파이어"]
+tag lengthL: 3
+tage name :  #스마일게이트
+redis-card :  { title: '크로스파이어 esports 한단다',
+  content: '크로스파이어 esports 한대요 여러분~',
+  photo_path: '/images/uploads/김민호-1519089101666-11867_20251_2855.jpg',
+  tag: ["#스마일게이트","#smilegate","#크로스파이어"],
+  ObjectId: '5a8b75cd342b6041a566006b' }
+key :  #스마일게이트
+value : { title: '크로스파이어 esports 한단다',
+  content: '크로스파이어 esports 한대요 여러분~',
+  photo_path: '/images/uploads/김민호-1519089101666-11867_20251_2855.jpg',
+  tag: ["#스마일게이트","#smilegate","#크로스파이어"],
+  ObjectId: '5a8b75cd342b6041a566006b' }
+key :  #smilegate
+value : { title: '크로스파이어 esports 한단다',
+  content: '크로스파이어 esports 한대요 여러분~',
+  photo_path: '/images/uploads/김민호-1519089101666-11867_20251_2855.jpg',
+  tag: ["#스마일게이트","#smilegate","#크로스파이어"],
+  ObjectId: '5a8b75cd342b6041a566006b' }
+key :  #크로스파이어
+value : { title: '크로스파이어 esports 한단다',
+  content: '크로스파이어 esports 한대요 여러분~',
+  photo_path: '/images/uploads/김민호-1519089101666-11867_20251_2855.jpg',
+  tag: ["#스마일게이트","#smilegate","#크로스파이어"],
+  ObjectId: '5a8b75cd342b6041a566006b' }
+[0mPOST /users/card [32m200 [0m9.794 ms - 38[0m
+input tag success
+lpush success
+key :  #크로스파이어
+key length :  true
+lpush success
+key :  #크로스파이어
+key length :  true
+lpush success
+key :  #크로스파이어
+key length :  true
+input tag success
+ltrim success
+ltrim success
+ltrim success
+input tag success
+req cookie: {"token":"mugpk4rSkgH5Fgg9sjAz36zelumrouKq","CardCnt":"10"}
+req session uid: 김민호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"20170915_210540.png","encoding":"7bit","mimetype":"image/png","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김민호-1519089164509-20170915_210540.png","path":"/home/seungjoo/project/imageServer/public/images/uploads/김민호-1519089164509-20170915_210540.png","size":463671}
+body: {"title":"개인적으로 이 캐릭 맘에 든다.","content":"RPG는 탱커죠","tag":"#스마일게이트 #smilegate #로스트아크 #lostArk","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#로스트아크', '#lostArk' ],
+  _id: 5a8b760c342b6041a566006c,
+  title: '개인적으로 이 캐릭 맘에 든다.',
+  content: 'RPG는 탱커죠',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089164509-20170915_210540.png' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#smilegate","#로스트아크","#lostArk"],"_id":"5a8b760c342b6041a566006c","title":"개인적으로 이 캐릭 맘에 든다.","content":"RPG는 탱커죠","user_ObjectId":"5a88f216f93c48263d0875a3","photo_path":"/images/uploads/김민호-1519089164509-20170915_210540.png"}
+10:12:44 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#smilegate,#로스트아크,#lostArk
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#로스트아크', '#lostArk' ],
+  _id: 5a8b760c342b6041a566006c,
+  title: '개인적으로 이 캐릭 맘에 든다.',
+  content: 'RPG는 탱커죠',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089164509-20170915_210540.png',
+  card_id: 49,
+  __v: 0 }
+card_ObjectId :  5a8b760c342b6041a566006c
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag name : #로스트아크
+query :  { tag_name: '#로스트아크' }
+tag name : #lostArk
+query :  { tag_name: '#lostArk' }
+tag :  ["#스마일게이트","#smilegate","#로스트아크","#lostArk"]
+tag lengthL: 4
+tage name :  #스마일게이트
+redis-card :  { title: '개인적으로 이 캐릭 맘에 든다.',
+  content: 'RPG는 탱커죠',
+  photo_path: '/images/uploads/김민호-1519089164509-20170915_210540.png',
+  tag: ["#스마일게이트","#smilegate","#로스트아크","#lostArk"],
+  ObjectId: '5a8b760c342b6041a566006c' }
+key :  #스마일게이트
+value : { title: '개인적으로 이 캐릭 맘에 든다.',
+  content: 'RPG는 탱커죠',
+  photo_path: '/images/uploads/김민호-1519089164509-20170915_210540.png',
+  tag: ["#스마일게이트","#smilegate","#로스트아크","#lostArk"],
+  ObjectId: '5a8b760c342b6041a566006c' }
+key :  #smilegate
+value : { title: '개인적으로 이 캐릭 맘에 든다.',
+  content: 'RPG는 탱커죠',
+  photo_path: '/images/uploads/김민호-1519089164509-20170915_210540.png',
+  tag: ["#스마일게이트","#smilegate","#로스트아크","#lostArk"],
+  ObjectId: '5a8b760c342b6041a566006c' }
+key :  #로스트아크
+value : { title: '개인적으로 이 캐릭 맘에 든다.',
+  content: 'RPG는 탱커죠',
+  photo_path: '/images/uploads/김민호-1519089164509-20170915_210540.png',
+  tag: ["#스마일게이트","#smilegate","#로스트아크","#lostArk"],
+  ObjectId: '5a8b760c342b6041a566006c' }
+key :  #lostArk
+value : { title: '개인적으로 이 캐릭 맘에 든다.',
+  content: 'RPG는 탱커죠',
+  photo_path: '/images/uploads/김민호-1519089164509-20170915_210540.png',
+  tag: ["#스마일게이트","#smilegate","#로스트아크","#lostArk"],
+  ObjectId: '5a8b760c342b6041a566006c' }
+[0mPOST /users/card [32m200 [0m6.781 ms - 38[0m
+lpush success
+key :  #lostArk
+key length :  true
+lpush success
+key :  #lostArk
+key length :  true
+lpush success
+key :  #lostArk
+key length :  true
+lpush success
+key :  #lostArk
+key length :  true
+input tag success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+input tag success
+input tag success
+input tag success
+req cookie: {"token":"mugpk4rSkgH5Fgg9sjAz36zelumrouKq","CardCnt":"10"}
+req session uid: 김민호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"lost_ark_1.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김민호-1519089211843-lost_ark_1.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김민호-1519089211843-lost_ark_1.jpg","size":167506}
+body: {"title":"로스트아크 배경화면","content":"로스트아크 배경화면입니다.","tag":"#스마일게이트 #smilegate #배경화면 #로스트아크 #lostArk","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#배경화면', '#로스트아크', '#lostArk' ],
+  _id: 5a8b763b342b6041a566006d,
+  title: '로스트아크 배경화면',
+  content: '로스트아크 배경화면입니다.',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089211843-lost_ark_1.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#smilegate","#배경화면","#로스트아크","#lostArk"],"_id":"5a8b763b342b6041a566006d","title":"로스트아크 배경화면","content":"로스트아크 배경화면입니다.","user_ObjectId":"5a88f216f93c48263d0875a3","photo_path":"/images/uploads/김민호-1519089211843-lost_ark_1.jpg"}
+10:13:31 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#smilegate,#배경화면,#로스트아크,#lostArk
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#배경화면', '#로스트아크', '#lostArk' ],
+  _id: 5a8b763b342b6041a566006d,
+  title: '로스트아크 배경화면',
+  content: '로스트아크 배경화면입니다.',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089211843-lost_ark_1.jpg',
+  card_id: 50,
+  __v: 0 }
+card_ObjectId :  5a8b763b342b6041a566006d
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag name : #배경화면
+query :  { tag_name: '#배경화면' }
+tag name : #로스트아크
+query :  { tag_name: '#로스트아크' }
+tag name : #lostArk
+query :  { tag_name: '#lostArk' }
+tag :  ["#스마일게이트","#smilegate","#배경화면","#로스트아크","#lostArk"]
+tag lengthL: 5
+tage name :  #스마일게이트
+redis-card :  { title: '로스트아크 배경화면',
+  content: '로스트아크 배경화면입니다.',
+  photo_path: '/images/uploads/김민호-1519089211843-lost_ark_1.jpg',
+  tag: ["#스마일게이트","#smilegate","#배경화면","#로스트아크","#lostArk"],
+  ObjectId: '5a8b763b342b6041a566006d' }
+key :  #스마일게이트
+value : { title: '로스트아크 배경화면',
+  content: '로스트아크 배경화면입니다.',
+  photo_path: '/images/uploads/김민호-1519089211843-lost_ark_1.jpg',
+  tag: ["#스마일게이트","#smilegate","#배경화면","#로스트아크","#lostArk"],
+  ObjectId: '5a8b763b342b6041a566006d' }
+key :  #smilegate
+value : { title: '로스트아크 배경화면',
+  content: '로스트아크 배경화면입니다.',
+  photo_path: '/images/uploads/김민호-1519089211843-lost_ark_1.jpg',
+  tag: ["#스마일게이트","#smilegate","#배경화면","#로스트아크","#lostArk"],
+  ObjectId: '5a8b763b342b6041a566006d' }
+key :  #배경화면
+value : { title: '로스트아크 배경화면',
+  content: '로스트아크 배경화면입니다.',
+  photo_path: '/images/uploads/김민호-1519089211843-lost_ark_1.jpg',
+  tag: ["#스마일게이트","#smilegate","#배경화면","#로스트아크","#lostArk"],
+  ObjectId: '5a8b763b342b6041a566006d' }
+key :  #로스트아크
+value : { title: '로스트아크 배경화면',
+  content: '로스트아크 배경화면입니다.',
+  photo_path: '/images/uploads/김민호-1519089211843-lost_ark_1.jpg',
+  tag: ["#스마일게이트","#smilegate","#배경화면","#로스트아크","#lostArk"],
+  ObjectId: '5a8b763b342b6041a566006d' }
+key :  #lostArk
+value : { title: '로스트아크 배경화면',
+  content: '로스트아크 배경화면입니다.',
+  photo_path: '/images/uploads/김민호-1519089211843-lost_ark_1.jpg',
+  tag: ["#스마일게이트","#smilegate","#배경화면","#로스트아크","#lostArk"],
+  ObjectId: '5a8b763b342b6041a566006d' }
+[0mPOST /users/card [32m200 [0m10.512 ms - 38[0m
+input tag success
+lpush success
+key :  #lostArk
+key length :  true
+lpush success
+key :  #lostArk
+key length :  true
+lpush success
+key :  #lostArk
+key length :  true
+lpush success
+key :  #lostArk
+key length :  true
+lpush success
+key :  #lostArk
+key length :  true
+input tag success
+input tag success
+input tag success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+input tag success
+req cookie: {"token":"mugpk4rSkgH5Fgg9sjAz36zelumrouKq","CardCnt":"10"}
+req session uid: 김민호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"tan.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김민호-1519089252985-tan.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김민호-1519089252985-tan.jpg","size":62599}
+body: {"title":"탄 업데이트!","content":"제목은 곧 내용","tag":"#스마일게이트 #smilegate #탄 #업데이트","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#탄', '#업데이트' ],
+  _id: 5a8b7664342b6041a566006e,
+  title: '탄 업데이트!',
+  content: '제목은 곧 내용',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089252985-tan.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#smilegate","#탄","#업데이트"],"_id":"5a8b7664342b6041a566006e","title":"탄 업데이트!","content":"제목은 곧 내용","user_ObjectId":"5a88f216f93c48263d0875a3","photo_path":"/images/uploads/김민호-1519089252985-tan.jpg"}
+10:14:12 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#smilegate,#탄,#업데이트
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#탄', '#업데이트' ],
+  _id: 5a8b7664342b6041a566006e,
+  title: '탄 업데이트!',
+  content: '제목은 곧 내용',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089252985-tan.jpg',
+  card_id: 51,
+  __v: 0 }
+card_ObjectId :  5a8b7664342b6041a566006e
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag name : #탄
+query :  { tag_name: '#탄' }
+tag name : #업데이트
+query :  { tag_name: '#업데이트' }
+tag :  ["#스마일게이트","#smilegate","#탄","#업데이트"]
+tag lengthL: 4
+tage name :  #스마일게이트
+redis-card :  { title: '탄 업데이트!',
+  content: '제목은 곧 내용',
+  photo_path: '/images/uploads/김민호-1519089252985-tan.jpg',
+  tag: ["#스마일게이트","#smilegate","#탄","#업데이트"],
+  ObjectId: '5a8b7664342b6041a566006e' }
+key :  #스마일게이트
+value : { title: '탄 업데이트!',
+  content: '제목은 곧 내용',
+  photo_path: '/images/uploads/김민호-1519089252985-tan.jpg',
+  tag: ["#스마일게이트","#smilegate","#탄","#업데이트"],
+  ObjectId: '5a8b7664342b6041a566006e' }
+key :  #smilegate
+value : { title: '탄 업데이트!',
+  content: '제목은 곧 내용',
+  photo_path: '/images/uploads/김민호-1519089252985-tan.jpg',
+  tag: ["#스마일게이트","#smilegate","#탄","#업데이트"],
+  ObjectId: '5a8b7664342b6041a566006e' }
+key :  #탄
+value : { title: '탄 업데이트!',
+  content: '제목은 곧 내용',
+  photo_path: '/images/uploads/김민호-1519089252985-tan.jpg',
+  tag: ["#스마일게이트","#smilegate","#탄","#업데이트"],
+  ObjectId: '5a8b7664342b6041a566006e' }
+key :  #업데이트
+value : { title: '탄 업데이트!',
+  content: '제목은 곧 내용',
+  photo_path: '/images/uploads/김민호-1519089252985-tan.jpg',
+  tag: ["#스마일게이트","#smilegate","#탄","#업데이트"],
+  ObjectId: '5a8b7664342b6041a566006e' }
+[0mPOST /users/card [32m200 [0m8.284 ms - 38[0m
+input tag success
+lpush success
+key :  #업데이트
+key length :  true
+lpush success
+key :  #업데이트
+key length :  true
+lpush success
+key :  #업데이트
+key length :  true
+lpush success
+key :  #업데이트
+key length :  true
+input tag success
+input tag success
+input tag success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+req cookie: {"token":"mugpk4rSkgH5Fgg9sjAz36zelumrouKq","CardCnt":"10"}
+req session uid: 김민호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"서버캠3기.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김민호-1519089313987-서버캠3기.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김민호-1519089313987-서버캠3기.jpg","size":43903}
+body: {"title":"서버캠 3기 6~7주차 활동보고","content":"3기 6~7주차 활동보고 메인 커버입니다.","tag":"#스마일게이트 #smilegate #서버캠 #3기 #서버캠3기","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#서버캠', '#3기', '#서버캠3기' ],
+  _id: 5a8b76a1342b6041a566006f,
+  title: '서버캠 3기 6~7주차 활동보고',
+  content: '3기 6~7주차 활동보고 메인 커버입니다.',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089313987-서버캠3기.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#smilegate","#서버캠","#3기","#서버캠3기"],"_id":"5a8b76a1342b6041a566006f","title":"서버캠 3기 6~7주차 활동보고","content":"3기 6~7주차 활동보고 메인 커버입니다.","user_ObjectId":"5a88f216f93c48263d0875a3","photo_path":"/images/uploads/김민호-1519089313987-서버캠3기.jpg"}
+10:15:13 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#smilegate,#서버캠,#3기,#서버캠3기
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#서버캠', '#3기', '#서버캠3기' ],
+  _id: 5a8b76a1342b6041a566006f,
+  title: '서버캠 3기 6~7주차 활동보고',
+  content: '3기 6~7주차 활동보고 메인 커버입니다.',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089313987-서버캠3기.jpg',
+  card_id: 52,
+  __v: 0 }
+card_ObjectId :  5a8b76a1342b6041a566006f
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag name : #서버캠
+query :  { tag_name: '#서버캠' }
+tag name : #3기
+query :  { tag_name: '#3기' }
+tag name : #서버캠3기
+query :  { tag_name: '#서버캠3기' }
+tag :  ["#스마일게이트","#smilegate","#서버캠","#3기","#서버캠3기"]
+tag lengthL: 5
+tage name :  #스마일게이트
+redis-card :  { title: '서버캠 3기 6~7주차 활동보고',
+  content: '3기 6~7주차 활동보고 메인 커버입니다.',
+  photo_path: '/images/uploads/김민호-1519089313987-서버캠3기.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠","#3기","#서버캠3기"],
+  ObjectId: '5a8b76a1342b6041a566006f' }
+key :  #스마일게이트
+value : { title: '서버캠 3기 6~7주차 활동보고',
+  content: '3기 6~7주차 활동보고 메인 커버입니다.',
+  photo_path: '/images/uploads/김민호-1519089313987-서버캠3기.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠","#3기","#서버캠3기"],
+  ObjectId: '5a8b76a1342b6041a566006f' }
+key :  #smilegate
+value : { title: '서버캠 3기 6~7주차 활동보고',
+  content: '3기 6~7주차 활동보고 메인 커버입니다.',
+  photo_path: '/images/uploads/김민호-1519089313987-서버캠3기.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠","#3기","#서버캠3기"],
+  ObjectId: '5a8b76a1342b6041a566006f' }
+key :  #서버캠
+value : { title: '서버캠 3기 6~7주차 활동보고',
+  content: '3기 6~7주차 활동보고 메인 커버입니다.',
+  photo_path: '/images/uploads/김민호-1519089313987-서버캠3기.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠","#3기","#서버캠3기"],
+  ObjectId: '5a8b76a1342b6041a566006f' }
+key :  #3기
+value : { title: '서버캠 3기 6~7주차 활동보고',
+  content: '3기 6~7주차 활동보고 메인 커버입니다.',
+  photo_path: '/images/uploads/김민호-1519089313987-서버캠3기.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠","#3기","#서버캠3기"],
+  ObjectId: '5a8b76a1342b6041a566006f' }
+key :  #서버캠3기
+value : { title: '서버캠 3기 6~7주차 활동보고',
+  content: '3기 6~7주차 활동보고 메인 커버입니다.',
+  photo_path: '/images/uploads/김민호-1519089313987-서버캠3기.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠","#3기","#서버캠3기"],
+  ObjectId: '5a8b76a1342b6041a566006f' }
+[0mPOST /users/card [32m200 [0m5.906 ms - 38[0m
+input tag success
+lpush success
+key :  #서버캠3기
+key length :  true
+lpush success
+key :  #서버캠3기
+key length :  true
+lpush success
+key :  #서버캠3기
+key length :  true
+lpush success
+key :  #서버캠3기
+key length :  true
+lpush success
+key :  #서버캠3기
+key length :  true
+input tag success
+input tag success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+input tag success
+input tag success
+req cookie: {"token":"mugpk4rSkgH5Fgg9sjAz36zelumrouKq","CardCnt":"10"}
+req session uid: 김민호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"서버캠이란.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김민호-1519089352020-서버캠이란.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김민호-1519089352020-서버캠이란.jpg","size":47723}
+body: {"title":"서버캠이란?","content":"서버캠이란 서버개발캠프를 뜻합니다. 많은 참여 바랄게요~~~","tag":"#스마일게이트 #smilegate #서버캠","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#서버캠' ],
+  _id: 5a8b76c8342b6041a5660070,
+  title: '서버캠이란?',
+  content: '서버캠이란 서버개발캠프를 뜻합니다. 많은 참여 바랄게요~~~',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089352020-서버캠이란.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#smilegate","#서버캠"],"_id":"5a8b76c8342b6041a5660070","title":"서버캠이란?","content":"서버캠이란 서버개발캠프를 뜻합니다. 많은 참여 바랄게요~~~","user_ObjectId":"5a88f216f93c48263d0875a3","photo_path":"/images/uploads/김민호-1519089352020-서버캠이란.jpg"}
+10:15:52 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#smilegate,#서버캠
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#서버캠' ],
+  _id: 5a8b76c8342b6041a5660070,
+  title: '서버캠이란?',
+  content: '서버캠이란 서버개발캠프를 뜻합니다. 많은 참여 바랄게요~~~',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519089352020-서버캠이란.jpg',
+  card_id: 53,
+  __v: 0 }
+card_ObjectId :  5a8b76c8342b6041a5660070
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag name : #서버캠
+query :  { tag_name: '#서버캠' }
+tag :  ["#스마일게이트","#smilegate","#서버캠"]
+tag lengthL: 3
+tage name :  #스마일게이트
+redis-card :  { title: '서버캠이란?',
+  content: '서버캠이란 서버개발캠프를 뜻합니다. 많은 참여 바랄게요~~~',
+  photo_path: '/images/uploads/김민호-1519089352020-서버캠이란.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠"],
+  ObjectId: '5a8b76c8342b6041a5660070' }
+key :  #스마일게이트
+value : { title: '서버캠이란?',
+  content: '서버캠이란 서버개발캠프를 뜻합니다. 많은 참여 바랄게요~~~',
+  photo_path: '/images/uploads/김민호-1519089352020-서버캠이란.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠"],
+  ObjectId: '5a8b76c8342b6041a5660070' }
+key :  #smilegate
+value : { title: '서버캠이란?',
+  content: '서버캠이란 서버개발캠프를 뜻합니다. 많은 참여 바랄게요~~~',
+  photo_path: '/images/uploads/김민호-1519089352020-서버캠이란.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠"],
+  ObjectId: '5a8b76c8342b6041a5660070' }
+key :  #서버캠
+value : { title: '서버캠이란?',
+  content: '서버캠이란 서버개발캠프를 뜻합니다. 많은 참여 바랄게요~~~',
+  photo_path: '/images/uploads/김민호-1519089352020-서버캠이란.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠"],
+  ObjectId: '5a8b76c8342b6041a5660070' }
+[0mPOST /users/card [32m200 [0m4.998 ms - 38[0m
+lpush success
+key :  #서버캠
+key length :  true
+lpush success
+key :  #서버캠
+key length :  true
+lpush success
+key :  #서버캠
+key length :  true
+ltrim success
+ltrim success
+ltrim success
+input tag success
+input tag success
+input tag success
+req cookie: {"token":"7MFImvynKXAh-ZetP3rnFctVr_jE0quy","CardCnt":"2"}
+req session uid: 김길호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"서버캠3기2.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김길호-1519089405889-서버캠3기2.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김길호-1519089405889-서버캠3기2.jpg","size":44318}
+body: {"title":"서버캠 2주차 활동보고","content":"서버캠 2주차 활동보고 메인 커버입니다.","tag":"#스마일게이트 #smilegate #서버캠 #2주차","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#서버캠', '#2주차' ],
+  _id: 5a8b76fd342b6041a5660071,
+  title: '서버캠 2주차 활동보고',
+  content: '서버캠 2주차 활동보고 메인 커버입니다.',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089405889-서버캠3기2.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#smilegate","#서버캠","#2주차"],"_id":"5a8b76fd342b6041a5660071","title":"서버캠 2주차 활동보고","content":"서버캠 2주차 활동보고 메인 커버입니다.","user_ObjectId":"5a88f018f93c48263d0875a2","photo_path":"/images/uploads/김길호-1519089405889-서버캠3기2.jpg"}
+10:16:45 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#smilegate,#서버캠,#2주차
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#서버캠', '#2주차' ],
+  _id: 5a8b76fd342b6041a5660071,
+  title: '서버캠 2주차 활동보고',
+  content: '서버캠 2주차 활동보고 메인 커버입니다.',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089405889-서버캠3기2.jpg',
+  card_id: 54,
+  __v: 0 }
+card_ObjectId :  5a8b76fd342b6041a5660071
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag name : #서버캠
+query :  { tag_name: '#서버캠' }
+tag name : #2주차
+query :  { tag_name: '#2주차' }
+tag :  ["#스마일게이트","#smilegate","#서버캠","#2주차"]
+tag lengthL: 4
+tage name :  #스마일게이트
+redis-card :  { title: '서버캠 2주차 활동보고',
+  content: '서버캠 2주차 활동보고 메인 커버입니다.',
+  photo_path: '/images/uploads/김길호-1519089405889-서버캠3기2.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠","#2주차"],
+  ObjectId: '5a8b76fd342b6041a5660071' }
+key :  #스마일게이트
+value : { title: '서버캠 2주차 활동보고',
+  content: '서버캠 2주차 활동보고 메인 커버입니다.',
+  photo_path: '/images/uploads/김길호-1519089405889-서버캠3기2.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠","#2주차"],
+  ObjectId: '5a8b76fd342b6041a5660071' }
+key :  #smilegate
+value : { title: '서버캠 2주차 활동보고',
+  content: '서버캠 2주차 활동보고 메인 커버입니다.',
+  photo_path: '/images/uploads/김길호-1519089405889-서버캠3기2.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠","#2주차"],
+  ObjectId: '5a8b76fd342b6041a5660071' }
+key :  #서버캠
+value : { title: '서버캠 2주차 활동보고',
+  content: '서버캠 2주차 활동보고 메인 커버입니다.',
+  photo_path: '/images/uploads/김길호-1519089405889-서버캠3기2.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠","#2주차"],
+  ObjectId: '5a8b76fd342b6041a5660071' }
+key :  #2주차
+value : { title: '서버캠 2주차 활동보고',
+  content: '서버캠 2주차 활동보고 메인 커버입니다.',
+  photo_path: '/images/uploads/김길호-1519089405889-서버캠3기2.jpg',
+  tag: ["#스마일게이트","#smilegate","#서버캠","#2주차"],
+  ObjectId: '5a8b76fd342b6041a5660071' }
+[0mPOST /users/card [32m200 [0m5.052 ms - 38[0m
+lpush success
+key :  #2주차
+key length :  true
+lpush success
+key :  #2주차
+key length :  true
+lpush success
+key :  #2주차
+key length :  true
+lpush success
+key :  #2주차
+key length :  true
+input tag success
+input tag success
+input tag success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+input tag success
+req cookie: {"token":"7MFImvynKXAh-ZetP3rnFctVr_jE0quy","CardCnt":"3"}
+req session uid: 김길호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"스마일게이트_메가포트_CI.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김길호-1519089441937-스마일게이트_메가포트_CI.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김길호-1519089441937-스마일게이트_메가포트_CI.jpg","size":22921}
+body: {"title":"스마일게이트 메가포트","content":"스마일게이트 메가포트 로고에용~","tag":"#스마일게이트 #smilegate #메가포트 #로고","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#메가포트', '#로고' ],
+  _id: 5a8b7721342b6041a5660072,
+  title: '스마일게이트 메가포트',
+  content: '스마일게이트 메가포트 로고에용~',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089441937-스마일게이트_메가포트_CI.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#smilegate","#메가포트","#로고"],"_id":"5a8b7721342b6041a5660072","title":"스마일게이트 메가포트","content":"스마일게이트 메가포트 로고에용~","user_ObjectId":"5a88f018f93c48263d0875a2","photo_path":"/images/uploads/김길호-1519089441937-스마일게이트_메가포트_CI.jpg"}
+10:17:21 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#smilegate,#메가포트,#로고
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#메가포트', '#로고' ],
+  _id: 5a8b7721342b6041a5660072,
+  title: '스마일게이트 메가포트',
+  content: '스마일게이트 메가포트 로고에용~',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089441937-스마일게이트_메가포트_CI.jpg',
+  card_id: 55,
+  __v: 0 }
+card_ObjectId :  5a8b7721342b6041a5660072
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag name : #메가포트
+query :  { tag_name: '#메가포트' }
+tag name : #로고
+query :  { tag_name: '#로고' }
+tag :  ["#스마일게이트","#smilegate","#메가포트","#로고"]
+tag lengthL: 4
+tage name :  #스마일게이트
+redis-card :  { title: '스마일게이트 메가포트',
+  content: '스마일게이트 메가포트 로고에용~',
+  photo_path: '/images/uploads/김길호-1519089441937-스마일게이트_메가포트_CI.jpg',
+  tag: ["#스마일게이트","#smilegate","#메가포트","#로고"],
+  ObjectId: '5a8b7721342b6041a5660072' }
+key :  #스마일게이트
+value : { title: '스마일게이트 메가포트',
+  content: '스마일게이트 메가포트 로고에용~',
+  photo_path: '/images/uploads/김길호-1519089441937-스마일게이트_메가포트_CI.jpg',
+  tag: ["#스마일게이트","#smilegate","#메가포트","#로고"],
+  ObjectId: '5a8b7721342b6041a5660072' }
+key :  #smilegate
+value : { title: '스마일게이트 메가포트',
+  content: '스마일게이트 메가포트 로고에용~',
+  photo_path: '/images/uploads/김길호-1519089441937-스마일게이트_메가포트_CI.jpg',
+  tag: ["#스마일게이트","#smilegate","#메가포트","#로고"],
+  ObjectId: '5a8b7721342b6041a5660072' }
+key :  #메가포트
+value : { title: '스마일게이트 메가포트',
+  content: '스마일게이트 메가포트 로고에용~',
+  photo_path: '/images/uploads/김길호-1519089441937-스마일게이트_메가포트_CI.jpg',
+  tag: ["#스마일게이트","#smilegate","#메가포트","#로고"],
+  ObjectId: '5a8b7721342b6041a5660072' }
+key :  #로고
+value : { title: '스마일게이트 메가포트',
+  content: '스마일게이트 메가포트 로고에용~',
+  photo_path: '/images/uploads/김길호-1519089441937-스마일게이트_메가포트_CI.jpg',
+  tag: ["#스마일게이트","#smilegate","#메가포트","#로고"],
+  ObjectId: '5a8b7721342b6041a5660072' }
+[0mPOST /users/card [32m200 [0m5.994 ms - 38[0m
+lpush success
+key :  #로고
+key length :  true
+lpush success
+key :  #로고
+key length :  true
+lpush success
+key :  #로고
+key length :  true
+lpush success
+key :  #로고
+key length :  true
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+input tag success
+input tag success
+input tag success
+input tag success
+req cookie: {"token":"7MFImvynKXAh-ZetP3rnFctVr_jE0quy","CardCnt":"4"}
+req session uid: 김길호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"크로스파이어 크로스파이어22.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김길호-1519089475238-크로스파이어 크로스파이어22.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김길호-1519089475238-크로스파이어 크로스파이어22.jpg","size":63456}
+body: {"title":"크로스파이어","content":"크파 짱잼!!","tag":"#스마일게이트 #smilegate # 크로스파이어 #짱잼","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#', '크로스파이어', '#짱잼' ],
+  _id: 5a8b7743342b6041a5660073,
+  title: '크로스파이어',
+  content: '크파 짱잼!!',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089475238-크로스파이어 크로스파이어22.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#smilegate","#","크로스파이어","#짱잼"],"_id":"5a8b7743342b6041a5660073","title":"크로스파이어","content":"크파 짱잼!!","user_ObjectId":"5a88f018f93c48263d0875a2","photo_path":"/images/uploads/김길호-1519089475238-크로스파이어 크로스파이어22.jpg"}
+10:17:55 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#smilegate,#,크로스파이어,#짱잼
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#', '크로스파이어', '#짱잼' ],
+  _id: 5a8b7743342b6041a5660073,
+  title: '크로스파이어',
+  content: '크파 짱잼!!',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089475238-크로스파이어 크로스파이어22.jpg',
+  card_id: 56,
+  __v: 0 }
+card_ObjectId :  5a8b7743342b6041a5660073
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag name : #
+query :  { tag_name: '#' }
+tag name : 크로스파이어
+query :  { tag_name: '크로스파이어' }
+tag name : #짱잼
+query :  { tag_name: '#짱잼' }
+tag :  ["#스마일게이트","#smilegate","#","크로스파이어","#짱잼"]
+tag lengthL: 5
+tage name :  #스마일게이트
+redis-card :  { title: '크로스파이어',
+  content: '크파 짱잼!!',
+  photo_path: '/images/uploads/김길호-1519089475238-크로스파이어 크로스파이어22.jpg',
+  tag: ["#스마일게이트","#smilegate","#","크로스파이어","#짱잼"],
+  ObjectId: '5a8b7743342b6041a5660073' }
+key :  #스마일게이트
+value : { title: '크로스파이어',
+  content: '크파 짱잼!!',
+  photo_path: '/images/uploads/김길호-1519089475238-크로스파이어 크로스파이어22.jpg',
+  tag: ["#스마일게이트","#smilegate","#","크로스파이어","#짱잼"],
+  ObjectId: '5a8b7743342b6041a5660073' }
+key :  #smilegate
+value : { title: '크로스파이어',
+  content: '크파 짱잼!!',
+  photo_path: '/images/uploads/김길호-1519089475238-크로스파이어 크로스파이어22.jpg',
+  tag: ["#스마일게이트","#smilegate","#","크로스파이어","#짱잼"],
+  ObjectId: '5a8b7743342b6041a5660073' }
+key :  #
+value : { title: '크로스파이어',
+  content: '크파 짱잼!!',
+  photo_path: '/images/uploads/김길호-1519089475238-크로스파이어 크로스파이어22.jpg',
+  tag: ["#스마일게이트","#smilegate","#","크로스파이어","#짱잼"],
+  ObjectId: '5a8b7743342b6041a5660073' }
+key :  크로스파이어
+value : { title: '크로스파이어',
+  content: '크파 짱잼!!',
+  photo_path: '/images/uploads/김길호-1519089475238-크로스파이어 크로스파이어22.jpg',
+  tag: ["#스마일게이트","#smilegate","#","크로스파이어","#짱잼"],
+  ObjectId: '5a8b7743342b6041a5660073' }
+key :  #짱잼
+value : { title: '크로스파이어',
+  content: '크파 짱잼!!',
+  photo_path: '/images/uploads/김길호-1519089475238-크로스파이어 크로스파이어22.jpg',
+  tag: ["#스마일게이트","#smilegate","#","크로스파이어","#짱잼"],
+  ObjectId: '5a8b7743342b6041a5660073' }
+[0mPOST /users/card [32m200 [0m5.203 ms - 38[0m
+lpush success
+key :  #짱잼
+key length :  true
+lpush success
+key :  #짱잼
+key length :  true
+lpush success
+key :  #짱잼
+key length :  true
+lpush success
+key :  #짱잼
+key length :  true
+lpush success
+key :  #짱잼
+key length :  true
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+input tag success
+input tag success
+input tag success
+input tag success
+input tag success
+req cookie: {"token":"7MFImvynKXAh-ZetP3rnFctVr_jE0quy","CardCnt":"5"}
+req session uid: 김길호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"탄최유정.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김길호-1519089508932-탄최유정.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김길호-1519089508932-탄최유정.jpg","size":407070}
+body: {"title":"탄 최유정!!","content":"최유정 귀욤귀욤","tag":"#스마일게이트 #최유정 #탄","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#최유정', '#탄' ],
+  _id: 5a8b7764342b6041a5660074,
+  title: '탄 최유정!!',
+  content: '최유정 귀욤귀욤',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089508932-탄최유정.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#최유정","#탄"],"_id":"5a8b7764342b6041a5660074","title":"탄 최유정!!","content":"최유정 귀욤귀욤","user_ObjectId":"5a88f018f93c48263d0875a2","photo_path":"/images/uploads/김길호-1519089508932-탄최유정.jpg"}
+10:18:28 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#최유정,#탄
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#최유정', '#탄' ],
+  _id: 5a8b7764342b6041a5660074,
+  title: '탄 최유정!!',
+  content: '최유정 귀욤귀욤',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089508932-탄최유정.jpg',
+  card_id: 57,
+  __v: 0 }
+card_ObjectId :  5a8b7764342b6041a5660074
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #최유정
+query :  { tag_name: '#최유정' }
+tag name : #탄
+query :  { tag_name: '#탄' }
+tag :  ["#스마일게이트","#최유정","#탄"]
+tag lengthL: 3
+tage name :  #스마일게이트
+redis-card :  { title: '탄 최유정!!',
+  content: '최유정 귀욤귀욤',
+  photo_path: '/images/uploads/김길호-1519089508932-탄최유정.jpg',
+  tag: ["#스마일게이트","#최유정","#탄"],
+  ObjectId: '5a8b7764342b6041a5660074' }
+key :  #스마일게이트
+value : { title: '탄 최유정!!',
+  content: '최유정 귀욤귀욤',
+  photo_path: '/images/uploads/김길호-1519089508932-탄최유정.jpg',
+  tag: ["#스마일게이트","#최유정","#탄"],
+  ObjectId: '5a8b7764342b6041a5660074' }
+key :  #최유정
+value : { title: '탄 최유정!!',
+  content: '최유정 귀욤귀욤',
+  photo_path: '/images/uploads/김길호-1519089508932-탄최유정.jpg',
+  tag: ["#스마일게이트","#최유정","#탄"],
+  ObjectId: '5a8b7764342b6041a5660074' }
+key :  #탄
+value : { title: '탄 최유정!!',
+  content: '최유정 귀욤귀욤',
+  photo_path: '/images/uploads/김길호-1519089508932-탄최유정.jpg',
+  tag: ["#스마일게이트","#최유정","#탄"],
+  ObjectId: '5a8b7764342b6041a5660074' }
+[0mPOST /users/card [32m200 [0m8.788 ms - 38[0m
+input tag success
+lpush success
+key :  #탄
+key length :  true
+lpush success
+key :  #탄
+key length :  true
+lpush success
+key :  #탄
+key length :  true
+input tag success
+input tag success
+ltrim success
+ltrim success
+ltrim success
+req cookie: {"token":"7MFImvynKXAh-ZetP3rnFctVr_jE0quy","CardCnt":"6"}
+req session uid: 김길호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"테일즈런너.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김길호-1519089558997-테일즈런너.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김길호-1519089558997-테일즈런너.jpg","size":343382}
+body: {"title":"테일즈런너 꽃보다 기사","content":"테런 업데이트하네여 오랜만에 ㄱㄱ?","tag":"#스마일게이트 #smilegate #테런 #업데이트","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#테런', '#업데이트' ],
+  _id: 5a8b7796342b6041a5660075,
+  title: '테일즈런너 꽃보다 기사',
+  content: '테런 업데이트하네여 오랜만에 ㄱㄱ?',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089558997-테일즈런너.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#smilegate","#테런","#업데이트"],"_id":"5a8b7796342b6041a5660075","title":"테일즈런너 꽃보다 기사","content":"테런 업데이트하네여 오랜만에 ㄱㄱ?","user_ObjectId":"5a88f018f93c48263d0875a2","photo_path":"/images/uploads/김길호-1519089558997-테일즈런너.jpg"}
+10:19:18 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#smilegate,#테런,#업데이트
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#smilegate', '#테런', '#업데이트' ],
+  _id: 5a8b7796342b6041a5660075,
+  title: '테일즈런너 꽃보다 기사',
+  content: '테런 업데이트하네여 오랜만에 ㄱㄱ?',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089558997-테일즈런너.jpg',
+  card_id: 58,
+  __v: 0 }
+card_ObjectId :  5a8b7796342b6041a5660075
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag name : #테런
+query :  { tag_name: '#테런' }
+tag name : #업데이트
+query :  { tag_name: '#업데이트' }
+tag :  ["#스마일게이트","#smilegate","#테런","#업데이트"]
+tag lengthL: 4
+tage name :  #스마일게이트
+redis-card :  { title: '테일즈런너 꽃보다 기사',
+  content: '테런 업데이트하네여 오랜만에 ㄱㄱ?',
+  photo_path: '/images/uploads/김길호-1519089558997-테일즈런너.jpg',
+  tag: ["#스마일게이트","#smilegate","#테런","#업데이트"],
+  ObjectId: '5a8b7796342b6041a5660075' }
+key :  #스마일게이트
+value : { title: '테일즈런너 꽃보다 기사',
+  content: '테런 업데이트하네여 오랜만에 ㄱㄱ?',
+  photo_path: '/images/uploads/김길호-1519089558997-테일즈런너.jpg',
+  tag: ["#스마일게이트","#smilegate","#테런","#업데이트"],
+  ObjectId: '5a8b7796342b6041a5660075' }
+key :  #smilegate
+value : { title: '테일즈런너 꽃보다 기사',
+  content: '테런 업데이트하네여 오랜만에 ㄱㄱ?',
+  photo_path: '/images/uploads/김길호-1519089558997-테일즈런너.jpg',
+  tag: ["#스마일게이트","#smilegate","#테런","#업데이트"],
+  ObjectId: '5a8b7796342b6041a5660075' }
+key :  #테런
+value : { title: '테일즈런너 꽃보다 기사',
+  content: '테런 업데이트하네여 오랜만에 ㄱㄱ?',
+  photo_path: '/images/uploads/김길호-1519089558997-테일즈런너.jpg',
+  tag: ["#스마일게이트","#smilegate","#테런","#업데이트"],
+  ObjectId: '5a8b7796342b6041a5660075' }
+key :  #업데이트
+value : { title: '테일즈런너 꽃보다 기사',
+  content: '테런 업데이트하네여 오랜만에 ㄱㄱ?',
+  photo_path: '/images/uploads/김길호-1519089558997-테일즈런너.jpg',
+  tag: ["#스마일게이트","#smilegate","#테런","#업데이트"],
+  ObjectId: '5a8b7796342b6041a5660075' }
+[0mPOST /users/card [32m200 [0m5.611 ms - 38[0m
+lpush success
+key :  #업데이트
+key length :  true
+lpush success
+key :  #업데이트
+key length :  true
+lpush success
+key :  #업데이트
+key length :  true
+lpush success
+key :  #업데이트
+key length :  true
+input tag success
+input tag success
+input tag success
+input tag success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+req cookie: {"token":"7MFImvynKXAh-ZetP3rnFctVr_jE0quy","CardCnt":"7"}
+req session uid: 김길호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"테일즈런너2.JPG","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김길호-1519089617381-테일즈런너2.JPG","path":"/home/seungjoo/project/imageServer/public/images/uploads/김길호-1519089617381-테일즈런너2.JPG","size":110304}
+body: {"title":"테런","content":"테런 옛날에 했었는데 꿀잼","tag":"#테런 #스마일게이트 #smilegate #롱런 #꿀잼","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#테런', '#스마일게이트', '#smilegate', '#롱런', '#꿀잼' ],
+  _id: 5a8b77d1342b6041a5660076,
+  title: '테런',
+  content: '테런 옛날에 했었는데 꿀잼',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089617381-테일즈런너2.JPG' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#테런","#스마일게이트","#smilegate","#롱런","#꿀잼"],"_id":"5a8b77d1342b6041a5660076","title":"테런","content":"테런 옛날에 했었는데 꿀잼","user_ObjectId":"5a88f018f93c48263d0875a2","photo_path":"/images/uploads/김길호-1519089617381-테일즈런너2.JPG"}
+10:20:17 - [32minfo[39m: WHAT new Card Tags :#테런,#스마일게이트,#smilegate,#롱런,#꿀잼
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#테런', '#스마일게이트', '#smilegate', '#롱런', '#꿀잼' ],
+  _id: 5a8b77d1342b6041a5660076,
+  title: '테런',
+  content: '테런 옛날에 했었는데 꿀잼',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089617381-테일즈런너2.JPG',
+  card_id: 59,
+  __v: 0 }
+card_ObjectId :  5a8b77d1342b6041a5660076
+new card save success
+tags input DB
+tag name : #테런
+query :  { tag_name: '#테런' }
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #smilegate
+query :  { tag_name: '#smilegate' }
+tag name : #롱런
+query :  { tag_name: '#롱런' }
+tag name : #꿀잼
+query :  { tag_name: '#꿀잼' }
+tag :  ["#테런","#스마일게이트","#smilegate","#롱런","#꿀잼"]
+tag lengthL: 5
+tage name :  #테런
+redis-card :  { title: '테런',
+  content: '테런 옛날에 했었는데 꿀잼',
+  photo_path: '/images/uploads/김길호-1519089617381-테일즈런너2.JPG',
+  tag: ["#테런","#스마일게이트","#smilegate","#롱런","#꿀잼"],
+  ObjectId: '5a8b77d1342b6041a5660076' }
+key :  #테런
+value : { title: '테런',
+  content: '테런 옛날에 했었는데 꿀잼',
+  photo_path: '/images/uploads/김길호-1519089617381-테일즈런너2.JPG',
+  tag: ["#테런","#스마일게이트","#smilegate","#롱런","#꿀잼"],
+  ObjectId: '5a8b77d1342b6041a5660076' }
+key :  #스마일게이트
+value : { title: '테런',
+  content: '테런 옛날에 했었는데 꿀잼',
+  photo_path: '/images/uploads/김길호-1519089617381-테일즈런너2.JPG',
+  tag: ["#테런","#스마일게이트","#smilegate","#롱런","#꿀잼"],
+  ObjectId: '5a8b77d1342b6041a5660076' }
+key :  #smilegate
+value : { title: '테런',
+  content: '테런 옛날에 했었는데 꿀잼',
+  photo_path: '/images/uploads/김길호-1519089617381-테일즈런너2.JPG',
+  tag: ["#테런","#스마일게이트","#smilegate","#롱런","#꿀잼"],
+  ObjectId: '5a8b77d1342b6041a5660076' }
+key :  #롱런
+value : { title: '테런',
+  content: '테런 옛날에 했었는데 꿀잼',
+  photo_path: '/images/uploads/김길호-1519089617381-테일즈런너2.JPG',
+  tag: ["#테런","#스마일게이트","#smilegate","#롱런","#꿀잼"],
+  ObjectId: '5a8b77d1342b6041a5660076' }
+key :  #꿀잼
+value : { title: '테런',
+  content: '테런 옛날에 했었는데 꿀잼',
+  photo_path: '/images/uploads/김길호-1519089617381-테일즈런너2.JPG',
+  tag: ["#테런","#스마일게이트","#smilegate","#롱런","#꿀잼"],
+  ObjectId: '5a8b77d1342b6041a5660076' }
+[0mPOST /users/card [32m200 [0m5.572 ms - 38[0m
+input tag success
+lpush success
+key :  #꿀잼
+key length :  true
+lpush success
+key :  #꿀잼
+key length :  true
+lpush success
+key :  #꿀잼
+key length :  true
+lpush success
+key :  #꿀잼
+key length :  true
+lpush success
+key :  #꿀잼
+key length :  true
+input tag success
+input tag success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+input tag success
+input tag success
+req cookie: {"token":"7MFImvynKXAh-ZetP3rnFctVr_jE0quy","CardCnt":"8"}
+req session uid: 김길호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"테일즈런너걸스데이.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김길호-1519089658140-테일즈런너걸스데이.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김길호-1519089658140-테일즈런너걸스데이.jpg","size":303782}
+body: {"title":"걸스데이","content":"테런 10주년인데 걸스데이옴!!","tag":"#스마일게이트 #걸스데이 #10주년 #테런","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#걸스데이', '#10주년', '#테런' ],
+  _id: 5a8b77fa342b6041a5660077,
+  title: '걸스데이',
+  content: '테런 10주년인데 걸스데이옴!!',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089658140-테일즈런너걸스데이.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#걸스데이","#10주년","#테런"],"_id":"5a8b77fa342b6041a5660077","title":"걸스데이","content":"테런 10주년인데 걸스데이옴!!","user_ObjectId":"5a88f018f93c48263d0875a2","photo_path":"/images/uploads/김길호-1519089658140-테일즈런너걸스데이.jpg"}
+10:20:58 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#걸스데이,#10주년,#테런
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#걸스데이', '#10주년', '#테런' ],
+  _id: 5a8b77fa342b6041a5660077,
+  title: '걸스데이',
+  content: '테런 10주년인데 걸스데이옴!!',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089658140-테일즈런너걸스데이.jpg',
+  card_id: 60,
+  __v: 0 }
+card_ObjectId :  5a8b77fa342b6041a5660077
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #걸스데이
+query :  { tag_name: '#걸스데이' }
+tag name : #10주년
+query :  { tag_name: '#10주년' }
+tag name : #테런
+query :  { tag_name: '#테런' }
+tag :  ["#스마일게이트","#걸스데이","#10주년","#테런"]
+tag lengthL: 4
+tage name :  #스마일게이트
+redis-card :  { title: '걸스데이',
+  content: '테런 10주년인데 걸스데이옴!!',
+  photo_path: '/images/uploads/김길호-1519089658140-테일즈런너걸스데이.jpg',
+  tag: ["#스마일게이트","#걸스데이","#10주년","#테런"],
+  ObjectId: '5a8b77fa342b6041a5660077' }
+key :  #스마일게이트
+value : { title: '걸스데이',
+  content: '테런 10주년인데 걸스데이옴!!',
+  photo_path: '/images/uploads/김길호-1519089658140-테일즈런너걸스데이.jpg',
+  tag: ["#스마일게이트","#걸스데이","#10주년","#테런"],
+  ObjectId: '5a8b77fa342b6041a5660077' }
+key :  #걸스데이
+value : { title: '걸스데이',
+  content: '테런 10주년인데 걸스데이옴!!',
+  photo_path: '/images/uploads/김길호-1519089658140-테일즈런너걸스데이.jpg',
+  tag: ["#스마일게이트","#걸스데이","#10주년","#테런"],
+  ObjectId: '5a8b77fa342b6041a5660077' }
+key :  #10주년
+value : { title: '걸스데이',
+  content: '테런 10주년인데 걸스데이옴!!',
+  photo_path: '/images/uploads/김길호-1519089658140-테일즈런너걸스데이.jpg',
+  tag: ["#스마일게이트","#걸스데이","#10주년","#테런"],
+  ObjectId: '5a8b77fa342b6041a5660077' }
+key :  #테런
+value : { title: '걸스데이',
+  content: '테런 10주년인데 걸스데이옴!!',
+  photo_path: '/images/uploads/김길호-1519089658140-테일즈런너걸스데이.jpg',
+  tag: ["#스마일게이트","#걸스데이","#10주년","#테런"],
+  ObjectId: '5a8b77fa342b6041a5660077' }
+[0mPOST /users/card [32m200 [0m8.426 ms - 38[0m
+lpush success
+key :  #테런
+key length :  true
+lpush success
+key :  #테런
+key length :  true
+lpush success
+key :  #테런
+key length :  true
+lpush success
+key :  #테런
+key length :  true
+input tag success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+input tag success
+input tag success
+input tag success
+req cookie: {"token":"7MFImvynKXAh-ZetP3rnFctVr_jE0quy","CardCnt":"9"}
+req session uid: 김길호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"프리스타일2.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김길호-1519089702959-프리스타일2.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김길호-1519089702959-프리스타일2.jpg","size":168318}
+body: {"title":"농구 한겜??","content":"프리스타일 ㄱㄱㄱ","tag":"#스마일게이트 #프리스타일 #농구 #gogo","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#프리스타일', '#농구', '#gogo' ],
+  _id: 5a8b7826342b6041a5660078,
+  title: '농구 한겜??',
+  content: '프리스타일 ㄱㄱㄱ',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089702959-프리스타일2.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#스마일게이트","#프리스타일","#농구","#gogo"],"_id":"5a8b7826342b6041a5660078","title":"농구 한겜??","content":"프리스타일 ㄱㄱㄱ","user_ObjectId":"5a88f018f93c48263d0875a2","photo_path":"/images/uploads/김길호-1519089702959-프리스타일2.jpg"}
+10:21:42 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#프리스타일,#농구,#gogo
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#스마일게이트', '#프리스타일', '#농구', '#gogo' ],
+  _id: 5a8b7826342b6041a5660078,
+  title: '농구 한겜??',
+  content: '프리스타일 ㄱㄱㄱ',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089702959-프리스타일2.jpg',
+  card_id: 61,
+  __v: 0 }
+card_ObjectId :  5a8b7826342b6041a5660078
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #프리스타일
+query :  { tag_name: '#프리스타일' }
+tag name : #농구
+query :  { tag_name: '#농구' }
+tag name : #gogo
+query :  { tag_name: '#gogo' }
+tag :  ["#스마일게이트","#프리스타일","#농구","#gogo"]
+tag lengthL: 4
+tage name :  #스마일게이트
+redis-card :  { title: '농구 한겜??',
+  content: '프리스타일 ㄱㄱㄱ',
+  photo_path: '/images/uploads/김길호-1519089702959-프리스타일2.jpg',
+  tag: ["#스마일게이트","#프리스타일","#농구","#gogo"],
+  ObjectId: '5a8b7826342b6041a5660078' }
+key :  #스마일게이트
+value : { title: '농구 한겜??',
+  content: '프리스타일 ㄱㄱㄱ',
+  photo_path: '/images/uploads/김길호-1519089702959-프리스타일2.jpg',
+  tag: ["#스마일게이트","#프리스타일","#농구","#gogo"],
+  ObjectId: '5a8b7826342b6041a5660078' }
+key :  #프리스타일
+value : { title: '농구 한겜??',
+  content: '프리스타일 ㄱㄱㄱ',
+  photo_path: '/images/uploads/김길호-1519089702959-프리스타일2.jpg',
+  tag: ["#스마일게이트","#프리스타일","#농구","#gogo"],
+  ObjectId: '5a8b7826342b6041a5660078' }
+key :  #농구
+value : { title: '농구 한겜??',
+  content: '프리스타일 ㄱㄱㄱ',
+  photo_path: '/images/uploads/김길호-1519089702959-프리스타일2.jpg',
+  tag: ["#스마일게이트","#프리스타일","#농구","#gogo"],
+  ObjectId: '5a8b7826342b6041a5660078' }
+key :  #gogo
+value : { title: '농구 한겜??',
+  content: '프리스타일 ㄱㄱㄱ',
+  photo_path: '/images/uploads/김길호-1519089702959-프리스타일2.jpg',
+  tag: ["#스마일게이트","#프리스타일","#농구","#gogo"],
+  ObjectId: '5a8b7826342b6041a5660078' }
+[0mPOST /users/card [32m200 [0m5.386 ms - 38[0m
+input tag success
+lpush success
+key :  #gogo
+key length :  true
+lpush success
+key :  #gogo
+key length :  true
+lpush success
+key :  #gogo
+key length :  true
+lpush success
+key :  #gogo
+key length :  true
+input tag success
+input tag success
+input tag success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+req cookie: {"token":"7MFImvynKXAh-ZetP3rnFctVr_jE0quy","CardCnt":"10"}
+req session uid: 김길호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"프리스타일경리.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김길호-1519089750384-프리스타일경리.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김길호-1519089750384-프리스타일경리.jpg","size":354670}
+body: {"title":"경리","content":"경리 저번에 스마겔 왔었는데 못봤음\r\n보신 분 있으신가욤?","tag":"#경리 #스마일게이트 #스마겔 #프리스타일","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#경리', '#스마일게이트', '#스마겔', '#프리스타일' ],
+  _id: 5a8b7856342b6041a5660079,
+  title: '경리',
+  content: '경리 저번에 스마겔 왔었는데 못봤음\r\n보신 분 있으신가욤?',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089750384-프리스타일경리.jpg' }
+newCard JSON: {"register_time":"2018-02-19T10:51:38.880Z","tag":["#경리","#스마일게이트","#스마겔","#프리스타일"],"_id":"5a8b7856342b6041a5660079","title":"경리","content":"경리 저번에 스마겔 왔었는데 못봤음\r\n보신 분 있으신가욤?","user_ObjectId":"5a88f018f93c48263d0875a2","photo_path":"/images/uploads/김길호-1519089750384-프리스타일경리.jpg"}
+10:22:30 - [32minfo[39m: WHAT new Card Tags :#경리,#스마일게이트,#스마겔,#프리스타일
+new card save success
+create card :  { register_time: 2018-02-19T10:51:38.880Z,
+  tag: [ '#경리', '#스마일게이트', '#스마겔', '#프리스타일' ],
+  _id: 5a8b7856342b6041a5660079,
+  title: '경리',
+  content: '경리 저번에 스마겔 왔었는데 못봤음\r\n보신 분 있으신가욤?',
+  user_ObjectId: '5a88f018f93c48263d0875a2',
+  photo_path: '/images/uploads/김길호-1519089750384-프리스타일경리.jpg',
+  card_id: 62,
+  __v: 0 }
+card_ObjectId :  5a8b7856342b6041a5660079
+new card save success
+tags input DB
+tag name : #경리
+query :  { tag_name: '#경리' }
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #스마겔
+query :  { tag_name: '#스마겔' }
+tag name : #프리스타일
+query :  { tag_name: '#프리스타일' }
+tag :  ["#경리","#스마일게이트","#스마겔","#프리스타일"]
+tag lengthL: 4
+tage name :  #경리
+redis-card :  { title: '경리',
+  content: '경리 저번에 스마겔 왔었는데 못봤음\r\n보신 분 있으신가욤?',
+  photo_path: '/images/uploads/김길호-1519089750384-프리스타일경리.jpg',
+  tag: ["#경리","#스마일게이트","#스마겔","#프리스타일"],
+  ObjectId: '5a8b7856342b6041a5660079' }
+key :  #경리
+value : { title: '경리',
+  content: '경리 저번에 스마겔 왔었는데 못봤음\r\n보신 분 있으신가욤?',
+  photo_path: '/images/uploads/김길호-1519089750384-프리스타일경리.jpg',
+  tag: ["#경리","#스마일게이트","#스마겔","#프리스타일"],
+  ObjectId: '5a8b7856342b6041a5660079' }
+key :  #스마일게이트
+value : { title: '경리',
+  content: '경리 저번에 스마겔 왔었는데 못봤음\r\n보신 분 있으신가욤?',
+  photo_path: '/images/uploads/김길호-1519089750384-프리스타일경리.jpg',
+  tag: ["#경리","#스마일게이트","#스마겔","#프리스타일"],
+  ObjectId: '5a8b7856342b6041a5660079' }
+key :  #스마겔
+value : { title: '경리',
+  content: '경리 저번에 스마겔 왔었는데 못봤음\r\n보신 분 있으신가욤?',
+  photo_path: '/images/uploads/김길호-1519089750384-프리스타일경리.jpg',
+  tag: ["#경리","#스마일게이트","#스마겔","#프리스타일"],
+  ObjectId: '5a8b7856342b6041a5660079' }
+key :  #프리스타일
+value : { title: '경리',
+  content: '경리 저번에 스마겔 왔었는데 못봤음\r\n보신 분 있으신가욤?',
+  photo_path: '/images/uploads/김길호-1519089750384-프리스타일경리.jpg',
+  tag: ["#경리","#스마일게이트","#스마겔","#프리스타일"],
+  ObjectId: '5a8b7856342b6041a5660079' }
+[0mPOST /users/card [32m200 [0m8.130 ms - 38[0m
+lpush success
+key :  #프리스타일
+key length :  true
+lpush success
+key :  #프리스타일
+key length :  true
+lpush success
+key :  #프리스타일
+key length :  true
+lpush success
+key :  #프리스타일
+key length :  true
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+input tag success
+input tag success
+input tag success
+input tag success
+mongodb connection ok
+mongodb connection ok
+mongodb connection ok
+mongodb connection ok
+req cookie: {"token":"LRm6qp_rm85CftHKnJgdthpNZXZH1EIs","CardCnt":"10","tagName":"스마일게이트"}
+req session uid: 김민호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"tan.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김민호-1519112835445-tan.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김민호-1519112835445-tan.jpg","size":62599}
+body: {"title":"탄 업그레이드","content":"탄","tag":"#스마일게이트 #탄","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#스마일게이트', '#탄' ],
+  _id: 5a8bd2833337195aa7b20433,
+  title: '탄 업그레이드',
+  content: '탄',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519112835445-tan.jpg' }
+newCard JSON: {"register_time":"2018-02-20T03:13:23.116Z","tag":["#스마일게이트","#탄"],"_id":"5a8bd2833337195aa7b20433","title":"탄 업그레이드","content":"탄","user_ObjectId":"5a88f216f93c48263d0875a3","photo_path":"/images/uploads/김민호-1519112835445-tan.jpg"}
+16:47:15 - [32minfo[39m: WHAT new Card Tags :#스마일게이트,#탄
+new card save success
+create card :  { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#스마일게이트', '#탄' ],
+  _id: 5a8bd2833337195aa7b20433,
+  title: '탄 업그레이드',
+  content: '탄',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519112835445-tan.jpg',
+  card_id: 63,
+  __v: 0 }
+card_ObjectId :  5a8bd2833337195aa7b20433
+new card save success
+tags input DB
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag name : #탄
+query :  { tag_name: '#탄' }
+tag :  ["#스마일게이트","#탄"]
+tag lengthL: 2
+tage name :  #스마일게이트
+redis-card :  { title: '탄 업그레이드',
+  content: '탄',
+  photo_path: '/images/uploads/김민호-1519112835445-tan.jpg',
+  tag: ["#스마일게이트","#탄"],
+  ObjectId: '5a8bd2833337195aa7b20433' }
+key :  #스마일게이트
+value : { title: '탄 업그레이드',
+  content: '탄',
+  photo_path: '/images/uploads/김민호-1519112835445-tan.jpg',
+  tag: ["#스마일게이트","#탄"],
+  ObjectId: '5a8bd2833337195aa7b20433' }
+key :  #탄
+value : { title: '탄 업그레이드',
+  content: '탄',
+  photo_path: '/images/uploads/김민호-1519112835445-tan.jpg',
+  tag: ["#스마일게이트","#탄"],
+  ObjectId: '5a8bd2833337195aa7b20433' }
+[0mPOST /users/card [32m200 [0m52.468 ms - 38[0m
+input tag success
+lpush success
+key :  #탄
+key length :  true
+lpush success
+key :  #탄
+key length :  true
+ltrim success
+ltrim success
+input tag success
+req cookie: {"tagName":"태웅이방","token":"n1Tr03V3gCIY7NdMYJQulKZMOb9Xyg6t"}
+req session uid: test123
+/posting/card in
+req.file: undefined
+body: {"title":"태웅이허벌","content":"허벌","tag":"#허벌라이프","photo":"undefined","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#허벌라이프' ],
+  _id: 5a8bd4683337195aa7b20434,
+  title: '태웅이허벌',
+  content: '허벌',
+  user_ObjectId: '5a8a580c5e827037af7e2e94',
+  photo_path: '/images/noimage.jpg' }
+newCard JSON: {"register_time":"2018-02-20T03:13:23.116Z","tag":["#허벌라이프"],"_id":"5a8bd4683337195aa7b20434","title":"태웅이허벌","content":"허벌","user_ObjectId":"5a8a580c5e827037af7e2e94","photo_path":"/images/noimage.jpg"}
+16:55:20 - [32minfo[39m: WHAT new Card Tags :#허벌라이프
+new card save success
+create card :  { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#허벌라이프' ],
+  _id: 5a8bd4683337195aa7b20434,
+  title: '태웅이허벌',
+  content: '허벌',
+  user_ObjectId: '5a8a580c5e827037af7e2e94',
+  photo_path: '/images/noimage.jpg',
+  card_id: 64,
+  __v: 0 }
+card_ObjectId :  5a8bd4683337195aa7b20434
+new card save success
+tags input DB
+tag name : #허벌라이프
+query :  { tag_name: '#허벌라이프' }
+tag :  ["#허벌라이프"]
+tag lengthL: 1
+tage name :  #허벌라이프
+redis-card :  { title: '태웅이허벌',
+  content: '허벌',
+  photo_path: '/images/noimage.jpg',
+  tag: ["#허벌라이프"],
+  ObjectId: '5a8bd4683337195aa7b20434' }
+key :  #허벌라이프
+value : { title: '태웅이허벌',
+  content: '허벌',
+  photo_path: '/images/noimage.jpg',
+  tag: ["#허벌라이프"],
+  ObjectId: '5a8bd4683337195aa7b20434' }
+[0mPOST /users/card [32m200 [0m18.144 ms - 38[0m
+lpush success
+key :  #허벌라이프
+key length :  true
+ltrim success
+input tag success
+req cookie: {"token":"n1Tr03V3gCIY7NdMYJQulKZMOb9Xyg6t","CardCnt":"2","tagName":"채팅"}
+req session uid: test123
+/posting/card in
+req.file: undefined
+body: {"title":"아몰랑채팅","content":"아몰랑","tag":"#채팅","photo":"undefined","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#채팅' ],
+  _id: 5a8bd4a63337195aa7b20435,
+  title: '아몰랑채팅',
+  content: '아몰랑',
+  user_ObjectId: '5a8a580c5e827037af7e2e94',
+  photo_path: '/images/noimage.jpg' }
+newCard JSON: {"register_time":"2018-02-20T03:13:23.116Z","tag":["#채팅"],"_id":"5a8bd4a63337195aa7b20435","title":"아몰랑채팅","content":"아몰랑","user_ObjectId":"5a8a580c5e827037af7e2e94","photo_path":"/images/noimage.jpg"}
+16:56:22 - [32minfo[39m: WHAT new Card Tags :#채팅
+new card save success
+create card :  { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#채팅' ],
+  _id: 5a8bd4a63337195aa7b20435,
+  title: '아몰랑채팅',
+  content: '아몰랑',
+  user_ObjectId: '5a8a580c5e827037af7e2e94',
+  photo_path: '/images/noimage.jpg',
+  card_id: 65,
+  __v: 0 }
+card_ObjectId :  5a8bd4a63337195aa7b20435
+new card save success
+tags input DB
+tag name : #채팅
+query :  { tag_name: '#채팅' }
+tag :  ["#채팅"]
+tag lengthL: 1
+tage name :  #채팅
+redis-card :  { title: '아몰랑채팅',
+  content: '아몰랑',
+  photo_path: '/images/noimage.jpg',
+  tag: ["#채팅"],
+  ObjectId: '5a8bd4a63337195aa7b20435' }
+key :  #채팅
+value : { title: '아몰랑채팅',
+  content: '아몰랑',
+  photo_path: '/images/noimage.jpg',
+  tag: ["#채팅"],
+  ObjectId: '5a8bd4a63337195aa7b20435' }
+[0mPOST /users/card [32m200 [0m13.019 ms - 38[0m
+lpush success
+key :  #채팅
+key length :  true
+input tag success
+ltrim success
+req cookie: {"CardCnt":"8","token":"QVorrNx09LblMgpNbJhHE-YYXC-SIRd-","tagName":"심심해"}
+req session uid: 쿄쿄쿄
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"최숮ㅇ.png","encoding":"7bit","mimetype":"image/png","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"쿄쿄쿄-1519117617068-최숮ㅇ.png","path":"/home/seungjoo/project/imageServer/public/images/uploads/쿄쿄쿄-1519117617068-최숮ㅇ.png","size":222650}
+body: {"title":"심심하신분~~","content":"심심한사람 ? ","tag":"#심심 #심심해 #심심이 #심심따리심심따","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#심심', '#심심해', '#심심이', '#심심따리심심따' ],
+  _id: 5a8be5313337195aa7b20436,
+  title: '심심하신분~~',
+  content: '심심한사람 ? ',
+  user_ObjectId: '5a8be4f6e83b307fde98d766',
+  photo_path: '/images/uploads/쿄쿄쿄-1519117617068-최숮ㅇ.png' }
+newCard JSON: {"register_time":"2018-02-20T03:13:23.116Z","tag":["#심심","#심심해","#심심이","#심심따리심심따"],"_id":"5a8be5313337195aa7b20436","title":"심심하신분~~","content":"심심한사람 ? ","user_ObjectId":"5a8be4f6e83b307fde98d766","photo_path":"/images/uploads/쿄쿄쿄-1519117617068-최숮ㅇ.png"}
+18:06:57 - [32minfo[39m: WHAT new Card Tags :#심심,#심심해,#심심이,#심심따리심심따
+new card save success
+create card :  { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#심심', '#심심해', '#심심이', '#심심따리심심따' ],
+  _id: 5a8be5313337195aa7b20436,
+  title: '심심하신분~~',
+  content: '심심한사람 ? ',
+  user_ObjectId: '5a8be4f6e83b307fde98d766',
+  photo_path: '/images/uploads/쿄쿄쿄-1519117617068-최숮ㅇ.png',
+  card_id: 66,
+  __v: 0 }
+card_ObjectId :  5a8be5313337195aa7b20436
+new card save success
+tags input DB
+tag name : #심심
+query :  { tag_name: '#심심' }
+tag name : #심심해
+query :  { tag_name: '#심심해' }
+tag name : #심심이
+query :  { tag_name: '#심심이' }
+tag name : #심심따리심심따
+query :  { tag_name: '#심심따리심심따' }
+tag :  ["#심심","#심심해","#심심이","#심심따리심심따"]
+tag lengthL: 4
+tage name :  #심심
+redis-card :  { title: '심심하신분~~',
+  content: '심심한사람 ? ',
+  photo_path: '/images/uploads/쿄쿄쿄-1519117617068-최숮ㅇ.png',
+  tag: ["#심심","#심심해","#심심이","#심심따리심심따"],
+  ObjectId: '5a8be5313337195aa7b20436' }
+key :  #심심
+value : { title: '심심하신분~~',
+  content: '심심한사람 ? ',
+  photo_path: '/images/uploads/쿄쿄쿄-1519117617068-최숮ㅇ.png',
+  tag: ["#심심","#심심해","#심심이","#심심따리심심따"],
+  ObjectId: '5a8be5313337195aa7b20436' }
+key :  #심심해
+value : { title: '심심하신분~~',
+  content: '심심한사람 ? ',
+  photo_path: '/images/uploads/쿄쿄쿄-1519117617068-최숮ㅇ.png',
+  tag: ["#심심","#심심해","#심심이","#심심따리심심따"],
+  ObjectId: '5a8be5313337195aa7b20436' }
+key :  #심심이
+value : { title: '심심하신분~~',
+  content: '심심한사람 ? ',
+  photo_path: '/images/uploads/쿄쿄쿄-1519117617068-최숮ㅇ.png',
+  tag: ["#심심","#심심해","#심심이","#심심따리심심따"],
+  ObjectId: '5a8be5313337195aa7b20436' }
+key :  #심심따리심심따
+value : { title: '심심하신분~~',
+  content: '심심한사람 ? ',
+  photo_path: '/images/uploads/쿄쿄쿄-1519117617068-최숮ㅇ.png',
+  tag: ["#심심","#심심해","#심심이","#심심따리심심따"],
+  ObjectId: '5a8be5313337195aa7b20436' }
+[0mPOST /users/card [32m200 [0m10.436 ms - 38[0m
+input tag success
+lpush success
+key :  #심심따리심심따
+key length :  true
+lpush success
+key :  #심심따리심심따
+key length :  true
+lpush success
+key :  #심심따리심심따
+key length :  true
+lpush success
+key :  #심심따리심심따
+key length :  true
+input tag success
+ltrim success
+ltrim success
+ltrim success
+ltrim success
+input tag success
+input tag success
+req cookie: {"token":"wSkgMo50HQ91BISzPdD-2xuKhnKhxiT4","CardCnt":"40","tagName":"스마일게이트"}
+req session uid: 김민호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"tan.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김민호-1519119602910-tan.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김민호-1519119602910-tan.jpg","size":62599}
+body: {"title":"탄","content":"탄 업데이트","tag":"#탄 #스마일게이트","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#탄', '#스마일게이트' ],
+  _id: 5a8becf23337195aa7b20437,
+  title: '탄',
+  content: '탄 업데이트',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519119602910-tan.jpg' }
+newCard JSON: {"register_time":"2018-02-20T03:13:23.116Z","tag":["#탄","#스마일게이트"],"_id":"5a8becf23337195aa7b20437","title":"탄","content":"탄 업데이트","user_ObjectId":"5a88f216f93c48263d0875a3","photo_path":"/images/uploads/김민호-1519119602910-tan.jpg"}
+18:40:02 - [32minfo[39m: WHAT new Card Tags :#탄,#스마일게이트
+new card save success
+create card :  { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#탄', '#스마일게이트' ],
+  _id: 5a8becf23337195aa7b20437,
+  title: '탄',
+  content: '탄 업데이트',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519119602910-tan.jpg',
+  card_id: 67,
+  __v: 0 }
+card_ObjectId :  5a8becf23337195aa7b20437
+new card save success
+tags input DB
+tag name : #탄
+query :  { tag_name: '#탄' }
+tag name : #스마일게이트
+query :  { tag_name: '#스마일게이트' }
+tag :  ["#탄","#스마일게이트"]
+tag lengthL: 2
+tage name :  #탄
+redis-card :  { title: '탄',
+  content: '탄 업데이트',
+  photo_path: '/images/uploads/김민호-1519119602910-tan.jpg',
+  tag: ["#탄","#스마일게이트"],
+  ObjectId: '5a8becf23337195aa7b20437' }
+key :  #탄
+value : { title: '탄',
+  content: '탄 업데이트',
+  photo_path: '/images/uploads/김민호-1519119602910-tan.jpg',
+  tag: ["#탄","#스마일게이트"],
+  ObjectId: '5a8becf23337195aa7b20437' }
+key :  #스마일게이트
+value : { title: '탄',
+  content: '탄 업데이트',
+  photo_path: '/images/uploads/김민호-1519119602910-tan.jpg',
+  tag: ["#탄","#스마일게이트"],
+  ObjectId: '5a8becf23337195aa7b20437' }
+[0mPOST /users/card [32m200 [0m6.241 ms - 38[0m
+lpush success
+key :  #스마일게이트
+key length :  true
+lpush success
+key :  #스마일게이트
+key length :  true
+ltrim success
+ltrim success
+input tag success
+input tag success
+req cookie: {"token":"_TwwkGHaXhQr4YkOnR0N48ph9v7TNUi-","CardCnt":"40","tagName":"smilegate"}
+req session uid: 김민호
+/posting/card in
+req.file: {"fieldname":"photo","originalname":"03.15589800.1.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"/home/seungjoo/project/imageServer/public/images/uploads","filename":"김민호-1519122237654-03.15589800.1.jpg","path":"/home/seungjoo/project/imageServer/public/images/uploads/김민호-1519122237654-03.15589800.1.jpg","size":40330}
+body: {"title":"오께이","content":"오께이","tag":"#오께이","card_id":"0"}
+POST /posts/card mode check =  0
+newCard: { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#오께이' ],
+  _id: 5a8bf73d3337195aa7b20438,
+  title: '오께이',
+  content: '오께이',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519122237654-03.15589800.1.jpg' }
+newCard JSON: {"register_time":"2018-02-20T03:13:23.116Z","tag":["#오께이"],"_id":"5a8bf73d3337195aa7b20438","title":"오께이","content":"오께이","user_ObjectId":"5a88f216f93c48263d0875a3","photo_path":"/images/uploads/김민호-1519122237654-03.15589800.1.jpg"}
+19:23:57 - [32minfo[39m: WHAT new Card Tags :#오께이
+new card save success
+create card :  { register_time: 2018-02-20T03:13:23.116Z,
+  tag: [ '#오께이' ],
+  _id: 5a8bf73d3337195aa7b20438,
+  title: '오께이',
+  content: '오께이',
+  user_ObjectId: '5a88f216f93c48263d0875a3',
+  photo_path: '/images/uploads/김민호-1519122237654-03.15589800.1.jpg',
+  card_id: 68,
+  __v: 0 }
+card_ObjectId :  5a8bf73d3337195aa7b20438
+new card save success
+tags input DB
+tag name : #오께이
+query :  { tag_name: '#오께이' }
+tag :  ["#오께이"]
+tag lengthL: 1
+tage name :  #오께이
+redis-card :  { title: '오께이',
+  content: '오께이',
+  photo_path: '/images/uploads/김민호-1519122237654-03.15589800.1.jpg',
+  tag: ["#오께이"],
+  ObjectId: '5a8bf73d3337195aa7b20438' }
+key :  #오께이
+value : { title: '오께이',
+  content: '오께이',
+  photo_path: '/images/uploads/김민호-1519122237654-03.15589800.1.jpg',
+  tag: ["#오께이"],
+  ObjectId: '5a8bf73d3337195aa7b20438' }
+[0mPOST /users/card [32m200 [0m8.171 ms - 38[0m
+lpush success
+key :  #오께이
+key length :  true
+input tag success
+ltrim success
+mongodb connection ok
+mongodb connection ok
+mongodb connection ok
+mongodb connection ok
