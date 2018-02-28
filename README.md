@@ -24,7 +24,8 @@ git clone https://github.com/Crazy0416/imageServer
 cd imageServer
 npm install
 ```
-## nginx 설치
-```javascript
-
-```
+## nginx 설정
+- nginx는 5000번 포트에서 LISTEN.
+- nginx는 리버스 프록시로 동작한다.
+- nginx에서 정적파일들을 처리한다.
+- POST요청으로 이미지 업로드 요청이 올 시에 imageServer로 요청을 pass 한다.
